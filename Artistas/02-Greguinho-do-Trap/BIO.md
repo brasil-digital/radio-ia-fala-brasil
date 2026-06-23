@@ -1,5 +1,5 @@
 # Greguinho do Trap
-### O Grek do Planalto
+### Grek do Planalto
 
 ---
 
@@ -8,13 +8,16 @@
 | Campo | Detalhe |
 |---|---|
 | **Nome artístico** | Greguinho do Trap |
+| **Nome no palco** | Grek do Planalto |
 | **Nome fictício** | Pablo Grek Macedo |
 | **Idade** | 28 anos |
 | **Origem** | Brasília, DF |
 | **Estilo** | Trap + Piseiro + Forró Eletrônico |
-| **Apelido** | O Grek do Planalto |
+| **Cores** | Roxo e Dourado |
+| **Logo** | Coroa dourada |
 | **Voz** | Masculina, aguda e única |
 | **Inspiração** | Cantor Grego (Brasília) |
+| **Avatar** | Pronto ✅ (arquivo: avatar.png) |
 
 ---
 
@@ -42,14 +45,25 @@ Do planalto central pras playlists de todo o país — o Grek chegou pra ficar.
 
 ---
 
-## Visual (prompt para geração de avatar)
+## Visual — Avatar
+- Roupa toda branca (camiseta oversized + calça cargo + tênis Air Force)
+- Correntes douradas pesadas com pingente
+- Tatuagens cobrindo os dois braços
+- Cabelo curto, pele morena, jovem e confiante
+- Microfone na mão
+- Palco com multidão enorme no fundo
+- Iluminação **roxo e dourado**
+- Logo da coroa dourada no chão do palco e no topo
+
+## Prompt para regenerar avatar
 ```
-Homem brasileiro de 28 anos, pele morena, cabelo curto com degradê
-estilizado, correntes finas douradas no pescoço, roupa streetwear moderna,
-boné levemente inclinado, tatuagens nos braços, expressão confiante e
-carismática, segurando microfone, fundo urbano noturno com luzes de
-Brasília e cores neon roxo e dourado, estilo artista de trap e piseiro,
-foto profissional artística, alta qualidade
+Young Brazilian trap artist male 28 years old, brown skin, short hair,
+all white outfit oversized t-shirt white cargo pants white sneakers,
+heavy gold chains with pendant, sleeve tattoos on both arms,
+holding microphone, standing on big festival stage, massive crowd
+background, purple and gold dramatic lighting with smoke,
+"GREK DO PLANALTO" in gold brushstroke typography, golden crown logo,
+professional concert photo, high quality
 ```
 
 ---
