@@ -1,0 +1,21 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de áudio/vídeo (muito grandes para git)
+*.mp3
+*.mp4
+*.wav
+*.aac
+*.flac
+*.mov
+*.avi
+
+# Imagens geradas (pesadas)
+*.psd
+*.ai
+
+# Temporários
+*.tmp
+*.log
