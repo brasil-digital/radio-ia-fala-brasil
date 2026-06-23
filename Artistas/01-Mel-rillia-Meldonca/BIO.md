@@ -1,5 +1,5 @@
-# Mel-rillia Mel-donça
-### A Rainha do Mel Amargo
+# Mell-Rillia Mel-Donça
+### A Rainha do Sertanejo
 
 ---
 
@@ -7,12 +7,15 @@
 
 | Campo | Detalhe |
 |---|---|
-| **Nome artístico** | Mel-rillia Mel-donça |
+| **Nome artístico** | Mell-Rillia Mel-Donça |
+| **Título oficial** | A Rainha do Sertanejo |
 | **Idade** | 30 anos |
 | **Origem** | Goiânia, GO |
 | **Estilo** | Sertanejo Sofrência / Universitário |
-| **Apelido** | A Rainha do Mel Amargo |
+| **Cores** | Dourado e preto |
+| **Logo** | Coroa ornamentada dourada |
 | **Voz** | Feminina, potente e emotiva |
+| **Avatar** | Pronto ✅ (arquivo: avatar.png) |
 
 ---
 
@@ -33,12 +36,27 @@ Fala direto ao coração — sem filtro, sem frescura.
 
 ---
 
-## Visual (prompt para geração de avatar)
+## Visual — Avatar
+- Mulher branca, 30 anos, sorriso poderoso e confiante
+- Cabelos castanhos longos e ondulados com luzes douradas
+- Vestido longo dourado com brilhos e fenda
+- Decote V elegante
+- Brincos de cristal
+- Microfone na mão
+- Palco com iluminação quente dourada e laranja
+- Coroa ornamentada dourada ao lado do nome
+- Título: **"A Rainha do Sertanejo"**
+
+## Prompt para regenerar avatar
 ```
-Mulher de 30 anos, brasileira, cabelos longos castanhos com mechas loiras,
-vestido longo brilhante dourado, maquiagem marcante, sorriso forte,
-microfone na mão, palco com luzes, estilo sertanejo rainha,
-alta qualidade, foto profissional artística
+Beautiful Brazilian sertanejo singer woman 30 years old, white skin,
+long wavy brown hair with golden highlights, stunning gold sequined
+floor-length gown with deep V-neck and slit, crystal earrings,
+holding microphone, radiant confident smile, stage with warm golden
+orange bokeh lights background, elegant royal typography
+"Mell-Rillia Mel-Donça" in gold, ornate golden crown crest badge
+"A Rainha do Sertanejo", glamorous professional music artist photo,
+high quality, cinematic
 ```
 
 ---
