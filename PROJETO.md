@@ -45,7 +45,7 @@ Radio IA Fala Brasil.
 ## Progresso Geral
 - ✅ Artistas criados: **10/10 — ELENCO COMPLETO!**
 - ✅ Avatares criados: **10/10 — TODOS PRONTOS!**
-- 🎵 Músicas com letra: 15/500
+- 🎵 Músicas com letra: 17/500
 - 🎵 Músicas geradas no Suno: 2/500
 - 🎬 Lyric videos: 1 em andamento
 
@@ -73,6 +73,7 @@ Radio IA Fala Brasil.
 | Grek do Planalto | Planalto no Piseiro | Identidade / amor na pista |
 | Grek do Planalto | Do Caderno pro Palco | Trajetória / superação |
 | Grek do Planalto | Ilusão Bonita | Romantismo + desilusão |
+| Grek do Planalto | Road to 26 (Rumo ao Hexa) | Seleção Brasileira / Copa 2026 |
 | Yasmin Axé | Salvador Me Chama | Carnaval / Salvador |
 | Yasmin Axé | Coração de Verão | Amor de verão |
 | Cowboy do Brasil | Sacode o Chão | Festa / bailão |
@@ -84,6 +85,7 @@ Radio IA Fala Brasil.
 | Bianca Power | Sem Desculpa | Empoderamento feminino |
 | Bianca Power | É Hexa, Brasil! | Copa do Mundo 2026 |
 | Ravi & Maya | Dois Corações | Amor que nasceu na música |
+| Ravi & Maya | Mesmo Assim | Amor real — escolher o outro mesmo quando a vida é difícil |
 
 ---
 
