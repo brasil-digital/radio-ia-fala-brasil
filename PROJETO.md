@@ -45,7 +45,7 @@ Radio IA Fala Brasil.
 ## Progresso Geral
 - ✅ Artistas criados: **10/10 — ELENCO COMPLETO!**
 - ✅ Avatares criados: **10/10 — TODOS PRONTOS!**
-- 🎵 Músicas com letra: 17/500
+- 🎵 Músicas com letra: 18/500
 - 🎵 Músicas geradas no Suno: 2/500
 - 🎬 Lyric videos: 1 em andamento
 
@@ -79,6 +79,7 @@ Radio IA Fala Brasil.
 | Cowboy do Brasil | Sacode o Chão | Festa / bailão |
 | Cowboy do Brasil | Poeira e Saudade | Saudade / amor perdido |
 | Dante Paulista | Sonhos a Prazo | Brasil real |
+| Dante Paulista | Enquanto Houver Sol | O mundo real e o Brasil que resiste |
 | Josué Rios | Passo a Passo no Tempo | Sabedoria / tempo |
 | Zion Costa | Brisa da Alma | Liberdade e leveza |
 | Nara Baiana | Suingue no Amor | Amor com batida |
