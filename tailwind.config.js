@@ -4,11 +4,16 @@ export default {
     extend: {
       colors: {
         radio: {
+          green: '#00B94F',
+          greenBright: '#00E060',
+          greenDeep: '#007A33',
+          yellow: '#FFDF00',
+          blue: '#0033A0',
           red: '#E30000',
           gold: '#FFD700',
-          dark: '#0A0A0A',
-          card: '#111111',
-          border: '#222222',
+          dark: '#04120A',
+          card: '#0A1F12',
+          border: '#14432A',
         }
       },
       fontFamily: {

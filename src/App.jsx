@@ -54,18 +54,21 @@ export default function App() {
     <div className="min-h-screen bg-radio-dark text-white">
       <audio ref={audioRef} preload="none" />
 
+      {/* Faixa da bandeira */}
+      <div className="brasil-stripe" />
+
       {/* Header */}
       <header className="border-b border-radio-border sticky top-0 z-50 bg-radio-dark/95 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-radio-red rounded-full flex items-center justify-center text-white font-display font-bold text-lg">
+            <div className="w-10 h-10 bg-gradient-to-br from-radio-green to-radio-yellow rounded-full flex items-center justify-center text-radio-dark font-display font-bold text-lg shadow-lg shadow-radio-green/40">
               R
             </div>
             <div>
               <h1 className="font-display font-bold text-white text-lg leading-tight tracking-wide">
-                RÁDIO FALA BRASIL
+                RÁDIO <span className="brasil-text">FALA BRASIL</span>
               </h1>
-              <p className="text-xs text-gray-500">A Primeira Rádio 100% IA do Brasil</p>
+              <p className="text-xs text-radio-green">A Primeira Rádio 100% IA do Brasil</p>
             </div>
           </div>
           <a
@@ -83,13 +86,13 @@ export default function App() {
       </header>
 
       {/* Hero Player */}
-      <section className="bg-gradient-to-b from-red-950/30 to-radio-dark py-16 px-4">
+      <section className="bg-gradient-to-b from-radio-greenDeep/30 via-radio-dark to-radio-dark py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
 
           {/* On Air badge */}
           <div className="inline-flex items-center gap-2 bg-radio-card border border-radio-border rounded-full px-4 py-1.5 mb-8">
-            <span className={`w-2.5 h-2.5 rounded-full ${playing ? 'bg-radio-red onair-dot' : 'bg-gray-600'}`} />
-            <span className="text-sm font-semibold tracking-widest text-gray-300">
+            <span className={`w-2.5 h-2.5 rounded-full ${playing ? 'bg-radio-greenBright onair-dot' : 'bg-gray-600'}`} />
+            <span className={`text-sm font-semibold tracking-widest ${playing ? 'text-radio-greenBright' : 'text-gray-300'}`}>
               {playing ? 'AO VIVO' : 'OFF AIR'}
             </span>
           </div>
@@ -99,11 +102,11 @@ export default function App() {
             <h2 className="font-display font-bold text-5xl md:text-7xl tracking-wider text-white">
               RÁDIO
             </h2>
-            <h2 className="font-display font-bold text-5xl md:text-7xl tracking-wider text-radio-red">
+            <h2 className="font-display font-bold text-5xl md:text-7xl tracking-wider brasil-text">
               FALA BRASIL
             </h2>
           </div>
-          <p className="text-radio-gold font-semibold text-lg mb-10 tracking-wide">
+          <p className="text-radio-yellow font-semibold text-lg mb-10 tracking-wide">
             🎵 Música Brasileira 24 horas por dia
           </p>
 
@@ -119,7 +122,7 @@ export default function App() {
             <button
               onClick={togglePlay}
               disabled={loading}
-              className="play-btn-glow w-24 h-24 rounded-full bg-radio-red hover:bg-red-600 active:scale-95 transition-all flex items-center justify-center disabled:opacity-70"
+              className="play-btn-glow w-24 h-24 rounded-full bg-gradient-to-br from-radio-green to-radio-greenDeep hover:from-radio-greenBright hover:to-radio-green active:scale-95 transition-all flex items-center justify-center disabled:opacity-70"
             >
               {loading ? (
                 <svg className="w-8 h-8 animate-spin text-white" fill="none" viewBox="0 0 24 24">
@@ -155,7 +158,7 @@ export default function App() {
                 step="0.05"
                 value={volume}
                 onChange={handleVolumeChange}
-                className="w-full accent-radio-red cursor-pointer"
+                className="w-full accent-radio-yellow cursor-pointer"
               />
               <svg className="w-5 h-5 text-gray-400 shrink-0" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
@@ -172,8 +175,8 @@ export default function App() {
       {/* Artists Section */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h3 className="font-display font-bold text-3xl md:text-4xl text-white tracking-wide mb-2">
-            NOSSOS ARTISTAS
+          <h3 className="font-display font-bold text-3xl md:text-4xl tracking-wide mb-2">
+            <span className="text-white">NOSSOS </span><span className="brasil-text">ARTISTAS</span>
           </h3>
           <p className="text-gray-400">10 artistas virtuais criados com IA — todos estilos do Brasil</p>
         </div>
@@ -192,7 +195,7 @@ export default function App() {
             ASSISTA NO YOUTUBE
           </h3>
           <p className="text-gray-400 mb-8">
-            Todos os clipes e lyric videos no canal <span className="text-radio-red font-semibold">Ritmos do Brasil</span>
+            Todos os clipes e lyric videos no canal <span className="text-radio-yellow font-semibold">Ritmos do Brasil</span>
           </p>
           <a
             href="https://www.youtube.com/@ritmosdoBrasil"
@@ -210,8 +213,8 @@ export default function App() {
 
       {/* About */}
       <section className="max-w-4xl mx-auto px-4 py-16 text-center">
-        <h3 className="font-display font-bold text-3xl text-white tracking-wide mb-6">
-          SOBRE A RÁDIO
+        <h3 className="font-display font-bold text-3xl tracking-wide mb-6">
+          <span className="text-white">SOBRE A </span><span className="brasil-text">RÁDIO</span>
         </h3>
         <p className="text-gray-300 text-lg leading-relaxed mb-4">
           A <strong className="text-white">Rádio Fala Brasil</strong> é a primeira rádio brasileira com elenco
@@ -220,20 +223,20 @@ export default function App() {
         </p>
         <p className="text-gray-400 leading-relaxed">
           Do sertanejo ao axé, do reggae ao R&B, do rock ao pagodão —
-          <span className="text-radio-gold font-semibold"> o Brasil inteiro em uma só rádio.</span>
+          <span className="text-radio-yellow font-semibold"> o Brasil inteiro em uma só rádio.</span>
         </p>
 
         <div className="grid grid-cols-3 gap-6 mt-12">
-          <div className="bg-radio-card border border-radio-border rounded-xl p-6">
-            <div className="font-display text-4xl font-bold text-radio-red mb-1">10</div>
+          <div className="bg-radio-card border border-radio-green/40 rounded-xl p-6">
+            <div className="font-display text-4xl font-bold text-radio-greenBright mb-1">10</div>
             <div className="text-gray-400 text-sm">Artistas Virtuais</div>
           </div>
-          <div className="bg-radio-card border border-radio-border rounded-xl p-6">
-            <div className="font-display text-4xl font-bold text-radio-gold mb-1">500</div>
+          <div className="bg-radio-card border border-radio-yellow/40 rounded-xl p-6">
+            <div className="font-display text-4xl font-bold text-radio-yellow mb-1">500</div>
             <div className="text-gray-400 text-sm">Músicas em Produção</div>
           </div>
-          <div className="bg-radio-card border border-radio-border rounded-xl p-6">
-            <div className="font-display text-4xl font-bold text-white mb-1">24h</div>
+          <div className="bg-radio-card border border-blue-500/40 rounded-xl p-6">
+            <div className="font-display text-4xl font-bold text-blue-400 mb-1">24h</div>
             <div className="text-gray-400 text-sm">No Ar</div>
           </div>
         </div>
@@ -242,19 +245,19 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-radio-border py-8 px-4">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="font-display font-bold text-gray-500 tracking-wider">
-            RÁDIO FALA BRASIL
+          <div className="font-display font-bold tracking-wider">
+            <span className="text-gray-400">RÁDIO </span><span className="brasil-text">FALA BRASIL</span>
           </div>
           <p className="text-gray-600 text-sm text-center">
             © 2026 Rádio Fala Brasil · Powered by{' '}
-            <span className="text-gray-400">Ritmos do Brasil</span> ·{' '}
+            <span className="text-radio-green">Ritmos do Brasil</span> ·{' '}
             Música 100% criada por IA
           </p>
           <a
             href="https://www.youtube.com/@ritmosdoBrasil"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-radio-red transition-colors"
+            className="text-gray-500 hover:text-radio-yellow transition-colors"
           >
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
@@ -262,6 +265,9 @@ export default function App() {
           </a>
         </div>
       </footer>
+
+      {/* Faixa da bandeira */}
+      <div className="brasil-stripe" />
     </div>
   )
 }
@@ -272,10 +278,10 @@ function ArtistCard({ artist }) {
       href={artist.youtube}
       target="_blank"
       rel="noopener noreferrer"
-      className="group bg-radio-card border border-radio-border rounded-xl p-4 text-center hover:border-radio-red transition-all hover:-translate-y-1"
+      className="group bg-radio-card border border-radio-border rounded-xl p-4 text-center hover:border-radio-yellow hover:shadow-lg hover:shadow-radio-green/20 transition-all hover:-translate-y-1"
     >
       <div
-        className="w-16 h-16 rounded-full mx-auto mb-3 flex items-center justify-center text-3xl border-2 border-radio-border group-hover:border-radio-red transition-colors overflow-hidden"
+        className="w-16 h-16 rounded-full mx-auto mb-3 flex items-center justify-center text-3xl border-2 border-radio-green/50 group-hover:border-radio-yellow transition-colors overflow-hidden"
         style={{ backgroundColor: artist.color + '33' }}
       >
         {artist.avatar ? (
@@ -288,11 +294,11 @@ function ArtistCard({ artist }) {
         ) : null}
         <span className={artist.avatar ? 'hidden' : ''}>{artist.emoji}</span>
       </div>
-      <h4 className="font-semibold text-white text-sm leading-tight mb-1 group-hover:text-radio-red transition-colors">
+      <h4 className="font-semibold text-white text-sm leading-tight mb-1 group-hover:text-radio-yellow transition-colors">
         {artist.name}
       </h4>
-      <p className="text-xs text-gray-500">{artist.style}</p>
-      <p className="text-xs text-gray-600 mt-0.5">{artist.origin}</p>
+      <p className="text-xs text-radio-green">{artist.style}</p>
+      <p className="text-xs text-gray-500 mt-0.5">{artist.origin}</p>
     </a>
   )
 }
