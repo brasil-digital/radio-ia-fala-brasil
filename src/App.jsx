@@ -72,7 +72,7 @@ export default function App() {
             </div>
           </div>
           <a
-            href="https://www.youtube.com/@ritmosdoBrasil"
+            href="https://www.youtube.com/@ritmos-do-brasil"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-red-700 hover:bg-red-600 text-white text-sm font-semibold px-3 py-1.5 rounded-full transition-colors"
@@ -198,7 +198,7 @@ export default function App() {
             Todos os clipes e lyric videos no canal <span className="text-radio-yellow font-semibold">Ritmos do Brasil</span>
           </p>
           <a
-            href="https://www.youtube.com/@ritmosdoBrasil"
+            href="https://www.youtube.com/@ritmos-do-brasil"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-500 text-white font-bold px-8 py-4 rounded-full text-lg transition-colors"
@@ -254,7 +254,7 @@ export default function App() {
             Música 100% criada por IA
           </p>
           <a
-            href="https://www.youtube.com/@ritmosdoBrasil"
+            href="https://www.youtube.com/@ritmos-do-brasil"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-radio-yellow transition-colors"
