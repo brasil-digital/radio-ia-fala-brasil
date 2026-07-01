@@ -61,9 +61,11 @@ export default function App() {
       <header className="border-b border-radio-border sticky top-0 z-50 bg-radio-dark/95 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-radio-green to-radio-yellow rounded-full flex items-center justify-center text-radio-dark font-display font-bold text-lg shadow-lg shadow-radio-green/40">
-              R
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="Mascote Rádio IA Fala Brasil"
+              className="w-10 h-10 rounded-full object-cover shadow-lg shadow-radio-green/40 border border-radio-green/50"
+            />
             <div>
               <h1 className="font-display font-bold text-white text-lg leading-tight tracking-wide">
                 RÁDIO <span className="brasil-text">FALA BRASIL</span>
@@ -97,14 +99,14 @@ export default function App() {
             </span>
           </div>
 
-          {/* Logo grande */}
-          <div className="mb-2">
-            <h2 className="font-display font-bold text-5xl md:text-7xl tracking-wider text-white">
-              RÁDIO
-            </h2>
-            <h2 className="font-display font-bold text-5xl md:text-7xl tracking-wider brasil-text">
-              FALA BRASIL
-            </h2>
+          {/* Mascote / Logo oficial */}
+          <div className="mb-4">
+            <h2 className="sr-only">Rádio IA Fala Brasil — A Voz Inteligente do Brasil</h2>
+            <img
+              src="/logo.jpg"
+              alt="Rádio IA Fala Brasil — mascote arara com fones de ouvido"
+              className="w-64 md:w-96 mx-auto rounded-3xl shadow-2xl shadow-radio-green/30"
+            />
           </div>
           <p className="text-radio-yellow font-semibold text-lg mb-10 tracking-wide">
             🎵 Música Brasileira 24 horas por dia
