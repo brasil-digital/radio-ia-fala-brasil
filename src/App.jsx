@@ -248,11 +248,22 @@ export default function App() {
           <div className="font-display font-bold tracking-wider">
             <span className="text-gray-400">RÁDIO </span><span className="brasil-text">FALA BRASIL</span>
           </div>
-          <p className="text-gray-600 text-sm text-center">
-            © 2026 Rádio Fala Brasil · Powered by{' '}
-            <span className="text-radio-green">Ritmos do Brasil</span> ·{' '}
-            Música 100% criada por IA
-          </p>
+          <div className="text-center">
+            <p className="text-gray-600 text-sm">
+              © 2026 Rádio Fala Brasil · Powered by{' '}
+              <span className="text-radio-green">Ritmos do Brasil</span> ·{' '}
+              Música 100% criada por IA
+            </p>
+            <p className="text-gray-500 text-sm mt-2">
+              Dúvidas ou parcerias:{' '}
+              <a
+                href="mailto:suporte@falabrasil.digital"
+                className="text-radio-yellow hover:text-radio-greenBright transition-colors font-semibold"
+              >
+                suporte@falabrasil.digital
+              </a>
+            </p>
+          </div>
           <a
             href="https://www.youtube.com/@ritmos-do-brasil"
             target="_blank"
