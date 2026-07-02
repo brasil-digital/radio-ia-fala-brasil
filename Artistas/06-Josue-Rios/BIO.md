@@ -119,6 +119,6 @@ Josué Rios não canta pra entreter. Canta pra transformar.
 | # | Título | Tema | Estilo | Status |
 |---|---|---|---|---|
 | 01 | Passo a Passo no Tempo | Sabedoria / envelhecer com graça | Blues Soul | Letra pronta |
-| 02 | A definir | - | - | Pendente |
+| 02 | O Rio Sabe o Caminho | A vida como um rio — confiança e gratidão | Gospel Blues | Letra pronta |
 | ... | ... | ... | ... | ... |
 | 50 | A definir | - | - | Pendente |

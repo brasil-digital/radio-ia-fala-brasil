@@ -29,12 +29,12 @@ Radio IA Fala Brasil.
 
 | # | Nome Artístico | Estilo | Origem | Avatar | Músicas |
 |---|---|---|---|---|---|
-| 01 | Mell-Rillia Mel-Donça | Sertanejo Sofrência | Goiânia, GO | ✅ | 1/50 |
-| 02 | Grek do Planalto | Trap + Piseiro + Forró | Brasília, DF | ✅ | 3/50 |
+| 01 | Mell-Rillia Mel-Donça | Sertanejo Sofrência | Goiânia, GO | ✅ | 2/50 |
+| 02 | Grek do Planalto | Trap + Piseiro + Forró | Brasília, DF | ✅ | 5/50 |
 | 03 | Yasmin Axé | Axé Baiano | Salvador, BA | ✅ | 2/50 |
-| 04 | Cowboy do Brasil | Sertanejo Piseiro Raiz | Interior BR | ✅ | 2/50 |
+| 04 | Cowboy do Brasil | Sertanejo Piseiro Raiz | Interior BR | ✅ | 3/50 |
 | 05 | Dante Paulista | Rock Nacional Clássico | São Paulo, SP | ✅ | 1/50 |
-| 06 | Josué Rios | Blues Soul | Salvador, BA | ✅ | 1/50 |
+| 06 | Josué Rios | Blues Soul | Salvador, BA | ✅ | 2/50 |
 | 07 | Zion Costa | Reggae Romântico | São Luís, MA | ✅ | 1/50 |
 | 08 | Nara Baiana | Pagodão Moderno | Salvador, BA | ✅ | 1/50 |
 | 09 | Bianca Power | R&B Pop | Rio de Janeiro, RJ | ✅ | 2/50 |
@@ -45,7 +45,7 @@ Radio IA Fala Brasil.
 ## Progresso Geral
 - ✅ Artistas criados: **10/10 — ELENCO COMPLETO!**
 - ✅ Avatares criados: **10/10 — TODOS PRONTOS!**
-- 🎵 Músicas com letra: 18/500
+- 🎵 Músicas com letra: 23/500
 - 🎵 Músicas geradas no Suno: 2/500
 - 🎬 Lyric videos: 1 em andamento
 
@@ -70,19 +70,24 @@ Radio IA Fala Brasil.
 | Artista | Música | Tema |
 |---|---|---|
 | Mell-Rillia | Amor que Dói mas Vicia | Amor viciante |
+| Mell-Rillia | Chorou no Pix | Ex manda Pix implorando volta — humor/superação |
 | Grek do Planalto | Planalto no Piseiro | Identidade / amor na pista |
 | Grek do Planalto | Do Caderno pro Palco | Trajetória / superação |
 | Grek do Planalto | Ilusão Bonita | Romantismo + desilusão |
 | Grek do Planalto | Road to 26 (Rumo ao Hexa) | Seleção Brasileira / Copa 2026 |
+| Grek do Planalto | Nova Geração | Juventude brasileira / anthem nacional |
 | Yasmin Axé | Salvador Me Chama | Carnaval / Salvador |
 | Yasmin Axé | Coração de Verão | Amor de verão |
 | Cowboy do Brasil | Sacode o Chão | Festa / bailão |
 | Cowboy do Brasil | Poeira e Saudade | Saudade / amor perdido |
+| Cowboy do Brasil | O Chapéu Cobre o Chifre | Traição que vira festa — humor |
 | Dante Paulista | Sonhos a Prazo | Brasil real |
 | Dante Paulista | Enquanto Houver Sol | O mundo real e o Brasil que resiste |
 | Josué Rios | Passo a Passo no Tempo | Sabedoria / tempo |
+| Josué Rios | O Rio Sabe o Caminho | A vida como um rio — confiança e gratidão |
 | Zion Costa | Brisa da Alma | Liberdade e leveza |
 | Nara Baiana | Suingue no Amor | Amor com batida |
+| Nara Baiana | Rebola Brasil | Festa / dança |
 | Bianca Power | Sem Desculpa | Empoderamento feminino |
 | Bianca Power | É Hexa, Brasil! | Copa do Mundo 2026 |
 | Ravi & Maya | Dois Corações | Amor que nasceu na música |

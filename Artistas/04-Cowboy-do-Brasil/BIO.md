@@ -62,6 +62,6 @@ foto profissional artística, alta qualidade
 |---|---|---|---|---|
 | 01 | Sacode o Chão | Piseiro animado / festa | 128 | Gerada no Suno ✅ — lyric video em andamento no CapCut |
 | 02 | Poeira e Saudade | Piseiro sofrido / saudade | 110 | Prompt gerado, não testado |
-| 03 | A definir | - | - | Pendente |
+| 03 | O Chapéu Cobre o Chifre | Traição que vira festa — humor | 130 | Letra pronta |
 | ... | ... | ... | ... | ... |
 | 50 | A definir | - | - | Pendente |

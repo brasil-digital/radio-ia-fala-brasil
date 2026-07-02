@@ -117,7 +117,7 @@ Mel-rillia não canta pra agradar. Canta pra curar.
 | # | Título | Tema | Status |
 |---|---|---|---|
 | 01 | Amor que Dói mas Vicia | Amor viciante | Letra pronta |
-| 02 | A definir | - | Pendente |
+| 02 | Chorou no Pix | Ex arrependido manda Pix — humor + superação | Letra pronta |
 | 03 | A definir | - | Pendente |
 | ... | ... | ... | ... |
 | 50 | A definir | - | Pendente |
