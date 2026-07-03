@@ -169,7 +169,7 @@ export default function App() {
           </div>
 
           <p className="mt-8 text-gray-500 text-sm">
-            A primeira rádio 100% criada por Inteligência Artificial do Brasil
+            Uma parceria oficial <span className="text-radio-yellow font-semibold">Fala Brasil</span> — o aplicativo de mensagens 100% brasileiro
           </p>
         </div>
       </section>
