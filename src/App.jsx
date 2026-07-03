@@ -168,8 +168,17 @@ export default function App() {
             </div>
           </div>
 
-          <p className="mt-8 text-gray-500 text-sm">
-            Uma parceria oficial <span className="text-radio-yellow font-semibold">Fala Brasil</span> — o aplicativo de mensagens 100% brasileiro
+          <p className="mt-8 text-gray-300 text-base md:text-lg">
+            Uma parceria oficial{' '}
+            <a
+              href="https://www.falabrasil.digital/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-radio-yellow font-bold hover:underline hover:brightness-110 transition"
+            >
+              Fala Brasil
+            </a>
+            {' '}— o aplicativo de mensagens 100% brasileiro
           </p>
         </div>
       </section>
