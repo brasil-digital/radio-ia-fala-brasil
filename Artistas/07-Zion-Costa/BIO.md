@@ -123,6 +123,9 @@ e sentir o vento do Maranhão.
 | # | Título | Tema | Status |
 |---|---|---|---|
 | 01 | Brisa da Alma | Liberdade e leveza de viver | Letra pronta |
-| 02 | A definir | - | Pendente |
+| 02 | Maré do Teu Olhar | Amor à beira-mar, paixão sem pressa | Letra pronta |
+| 03 | Saudade Cor de Sol | Saudade doce de quem partiu | Letra pronta |
+| 04 | Bruna | Amor e saudade da noiva, dedicada à Bruna | Letra pronta |
+| 05 | A definir | - | Pendente |
 | ... | ... | ... | ... |
 | 50 | A definir | - | Pendente |
