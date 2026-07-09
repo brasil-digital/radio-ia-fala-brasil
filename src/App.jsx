@@ -1,8 +1,13 @@
 import { useState, useRef, useEffect } from 'react'
+import { MediaSession } from '@jofr/capacitor-media-session'
 import { artists } from './data/artists'
 
 // ⚠️ Substitua pela URL real do seu stream BR Logic
 const STREAM_URL = 'https://servidor29-1.brlogic.com:7018/live'
+
+const setMediaSessionState = (playbackState) => {
+  MediaSession.setPlaybackState({ playbackState }).catch(() => {})
+}
 
 export default function App() {
   const [playing, setPlaying] = useState(false)
@@ -10,6 +15,7 @@ export default function App() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
   const audioRef = useRef(null)
+  const playingRef = useRef(false)
 
   useEffect(() => {
     if (audioRef.current) {
@@ -17,32 +23,58 @@ export default function App() {
     }
   }, [volume])
 
-  const togglePlay = () => {
+  const startPlay = () => {
+    const audio = audioRef.current
+    if (!audio || playingRef.current) return
+    setLoading(true)
+    setError(false)
+    audio.src = STREAM_URL
+    audio.load()
+    audio.play()
+      .then(() => {
+        playingRef.current = true
+        setPlaying(true)
+        setLoading(false)
+        MediaSession.setMetadata({
+          title: 'Rádio Fala Brasil — Ao Vivo',
+          artist: 'Música Brasileira 24 horas por dia',
+          album: 'radiofalabrasil.com',
+          artwork: [{ src: '/logo.jpg', sizes: '512x512', type: 'image/jpeg' }],
+        }).catch(() => {})
+        setMediaSessionState('playing')
+      })
+      .catch(() => {
+        setError(true)
+        setLoading(false)
+        playingRef.current = false
+        setPlaying(false)
+        setMediaSessionState('none')
+      })
+  }
+
+  const stopPlay = () => {
     const audio = audioRef.current
     if (!audio) return
-
-    if (playing) {
-      audio.pause()
-      audio.src = ''
-      setPlaying(false)
-      setError(false)
-    } else {
-      setLoading(true)
-      setError(false)
-      audio.src = STREAM_URL
-      audio.load()
-      audio.play()
-        .then(() => {
-          setPlaying(true)
-          setLoading(false)
-        })
-        .catch(() => {
-          setError(true)
-          setLoading(false)
-          setPlaying(false)
-        })
-    }
+    audio.pause()
+    audio.src = ''
+    playingRef.current = false
+    setPlaying(false)
+    setError(false)
+    setMediaSessionState('paused')
   }
+
+  const togglePlay = () => {
+    if (playingRef.current) stopPlay()
+    else startPlay()
+  }
+
+  useEffect(() => {
+    // Controles da tela de bloqueio / notificação de mídia (Android + web)
+    MediaSession.setActionHandler({ action: 'play' }, () => startPlay()).catch(() => {})
+    MediaSession.setActionHandler({ action: 'pause' }, () => stopPlay()).catch(() => {})
+    MediaSession.setActionHandler({ action: 'stop' }, () => stopPlay()).catch(() => {})
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const handleVolumeChange = (e) => {
     const val = parseFloat(e.target.value)
@@ -189,7 +221,7 @@ export default function App() {
           <h3 className="font-display font-bold text-3xl md:text-4xl tracking-wide mb-2">
             <span className="text-white">NOSSOS </span><span className="brasil-text">ARTISTAS</span>
           </h3>
-          <p className="text-gray-400">10 artistas virtuais criados com IA — todos estilos do Brasil</p>
+          <p className="text-gray-400">12 artistas virtuais criados com IA — todos estilos do Brasil</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -229,7 +261,7 @@ export default function App() {
         </h3>
         <p className="text-gray-300 text-lg leading-relaxed mb-4">
           A <strong className="text-white">Rádio Fala Brasil</strong> é a primeira rádio brasileira com elenco
-          100% criado por Inteligência Artificial. São 10 artistas virtuais, cada um com identidade,
+          100% criado por Inteligência Artificial. São 12 artistas virtuais, cada um com identidade,
           biografia e estilo musical próprios — representando os mais variados ritmos do Brasil.
         </p>
         <p className="text-gray-400 leading-relaxed">
@@ -239,11 +271,11 @@ export default function App() {
 
         <div className="grid grid-cols-3 gap-6 mt-12">
           <div className="bg-radio-card border border-radio-green/40 rounded-xl p-6">
-            <div className="font-display text-4xl font-bold text-radio-greenBright mb-1">10</div>
+            <div className="font-display text-4xl font-bold text-radio-greenBright mb-1">12</div>
             <div className="text-gray-400 text-sm">Artistas Virtuais</div>
           </div>
           <div className="bg-radio-card border border-radio-yellow/40 rounded-xl p-6">
-            <div className="font-display text-4xl font-bold text-radio-yellow mb-1">500</div>
+            <div className="font-display text-4xl font-bold text-radio-yellow mb-1">600</div>
             <div className="text-gray-400 text-sm">Músicas em Produção</div>
           </div>
           <div className="bg-radio-card border border-blue-500/40 rounded-xl p-6">
