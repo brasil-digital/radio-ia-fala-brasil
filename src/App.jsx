@@ -9,6 +9,29 @@ const setMediaSessionState = (playbackState) => {
   MediaSession.setPlaybackState({ playbackState }).catch(() => {})
 }
 
+// Equalizador: 28 barras no degradê da bandeira (verde → amarelo → azul)
+const EQ_STOPS = [
+  [0, 224, 96],   // verde
+  [255, 223, 0],  // amarelo
+  [59, 130, 246], // azul
+]
+const eqColor = (t) => {
+  const seg = t < 0.5 ? 0 : 1
+  const f = (t - seg * 0.5) / 0.5
+  const [a, b] = [EQ_STOPS[seg], EQ_STOPS[seg + 1]]
+  const mix = a.map((c, i) => Math.round(c + (b[i] - c) * f))
+  return { color: `rgb(${mix.join(',')})`, dark: `rgb(${mix.map((c) => Math.round(c * 0.35)).join(',')})` }
+}
+const EQ_BARS = Array.from({ length: 28 }, (_, i) => {
+  const t = i / 27
+  return {
+    ...eqColor(t),
+    height: Math.round(16 + 36 * Math.abs(Math.sin(i * 1.7 + 0.6))),
+    delay: +((i * 0.077) % 0.9).toFixed(2),
+    duration: +(0.85 + ((i * 37) % 55) / 100).toFixed(2),
+  }
+})
+
 export default function App() {
   const [playing, setPlaying] = useState(false)
   const [volume, setVolume] = useState(0.8)
@@ -145,9 +168,19 @@ export default function App() {
           </p>
 
           {/* Equalizer */}
-          <div className={`flex items-end justify-center gap-1.5 h-10 mb-8 ${!playing ? 'opacity-30' : ''}`}>
-            {[...Array(5)].map((_, i) => (
-              <div key={i} className={`eq-bar ${!playing ? 'paused' : ''}`} />
+          <div className={`flex items-end justify-center gap-1.5 h-14 mb-8 ${!playing ? 'opacity-30' : ''}`}>
+            {EQ_BARS.map((bar, i) => (
+              <div
+                key={i}
+                className={`eq-bar ${!playing ? 'paused' : ''}`}
+                style={{
+                  height: `${bar.height}px`,
+                  background: `linear-gradient(to top, ${bar.dark}, ${bar.color})`,
+                  boxShadow: `0 0 10px ${bar.color}, 0 0 22px ${bar.color}55`,
+                  animationDelay: `${bar.delay}s`,
+                  animationDuration: `${bar.duration}s`,
+                }}
+              />
             ))}
           </div>
 
