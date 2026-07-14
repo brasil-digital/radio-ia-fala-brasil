@@ -127,10 +127,32 @@ then warm California golden light over palm trees, dreamy hopeful mood`
 3. Saídas: CLIPE OFICIAL 16:9 + SHORT 45s (envelope!) + STORY 30s com info
 4. Thumbnail: frame do envelope OU do green card na mão + selo CLIPE OFICIAL
 
-## STATUS
-| Cena | Imagem (A) | Vídeo (B) | Obs |
-|---|---|---|---|
-| 1-13 | ☐ | ☐ | aguardando cota Veo (14/jul esgotada) |
+## STATUS (GERADO EM 14/jul/2026 — tudo no mesmo dia!)
+| Cena | Vídeo | Obs |
+|---|---|---|
+| 1 | ✅ cena01.mp4 | sombra: rua à noite, olhar tenso — Ronny |
+| 2 | ✅ cena02.mp4 | trabalho na neve com picape — Ronny |
+| 3 | ✅ cena03.mp4 | janela à noite, foto da família — Ronny |
+| 4 | ✅ cena04.mp4 | estrada golden hour (drone) |
+| 5 | ✅ cena05.mp4 | Estátua da Liberdade ao amanhecer — linda |
+| 6 | ✅ cena06.mp4 | 💥 ENVELOPE: tira o green card e chora — Ronny (SHORT VIRAL) |
+| 7 | ✅ cena07.mp4 | "mãe, deu certo!": lágrima + risada no telefone — Ronny |
+| 8 | reprises | usar 6+4+7 no refrão 2 |
+| 9 | ✅ cena09.mp4 | NY Times Square anoitecer |
+| 10 | ✅ cena10.mp4 | Miami Beach pôr do sol (escolhida no A/B do Gemini) |
+| 11 | ✅ cena11.mp4 | 🔥 FOTO REAL do Ronny no aeroporto ANIMADA — 100% ele |
+| 12 | ✅ cena12.mp4 | abraço com a mãe no DESEMBARQUE (bandeiras BR) — chorar |
+| 13 | ✅ cena13.mp4 | final: green card na mão, sorriso pra câmera, bandeira BR na jaqueta |
+
+Imagens-fonte em `Imagens-Cena\`. PENDENTE: montagem FFmpeg (transcrever MP3
+com faster-whisper → cortes na letra → slow-mo/grade → CLIPE + SHORT + STORY + thumb).
+
+## Truques que funcionaram (14/jul)
+- Colar foto no Gemini: PowerShell STA `Clipboard::SetImage()` + clique no campo + ctrl+v
+  (o paste pode demorar ~5s pra aparecer o thumbnail)
+- Manter o MESMO chat pra todas as cenas = consistência de rosto entre cenas
+- "Now animate this exact image into an 8 second video: ..." logo após gerar a imagem
+- Conferir todo download por hash MD5 (posters do player enganam)
 
 ## VIRAL CHECKLIST
 - Short do ENVELOPE (cena 6) = o momento mais compartilhável
