@@ -131,4 +131,15 @@ export const artists = [
     songs: ['De Silveirânia a São José', 'Meu Coração Mora em Minas'],
     youtube: 'https://www.youtube.com/@ritmos-do-brasil',
   },
+  {
+    id: 13,
+    name: 'MC Foguete',
+    style: 'Funk Carioca',
+    origin: 'Madureira, RJ',
+    color: '#C1121F',
+    emoji: '🚀',
+    avatar: '/avatars/13-MC-Foguete.png',
+    songs: ['Baile do Foguete', 'Favela é Gente'],
+    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+  },
 ]
