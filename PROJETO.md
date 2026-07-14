@@ -4,14 +4,14 @@
 ---
 
 ## Visão Geral
-Uma revolução musical brasileira — 10 artistas virtuais criados com IA, cada um com 50 músicas
+Uma revolução musical brasileira — 13 artistas virtuais criados com IA, cada um com 50 músicas
 originais em estilos variados, distribuídas em plataformas digitais e transmitidas pela
 Radio IA Fala Brasil.
 
 ## Meta
-- 10 artistas virtuais ✅ COMPLETO
+- 13 artistas virtuais ✅ COMPLETO
 - 50 músicas por artista (em desenvolvimento)
-- 500 músicas no total
+- 650 músicas no total
 - Distribuição: YouTube, Spotify, Deezer, Apple Music
 - Canal: Radio IA Fala Brasil
 
@@ -25,7 +25,7 @@ Radio IA Fala Brasil.
 
 ---
 
-## Elenco Completo — 10 Artistas
+## Elenco Completo — 13 Artistas
 
 | # | Nome Artístico | Estilo | Origem | Avatar | Músicas |
 |---|---|---|---|---|---|
@@ -39,14 +39,17 @@ Radio IA Fala Brasil.
 | 08 | Nara Baiana | Pagodão Moderno | Salvador, BA | ✅ | 1/50 |
 | 09 | Bianca Power | R&B Pop | Rio de Janeiro, RJ | ✅ | 2/50 |
 | 10 | Ravi & Maya | Sertanejo Universitário | Uberlândia, MG | ✅ | 1/50 |
+| 11 | Gordinho do Piseiro | Piseiro / Forró de Paredão | Caruaru, PE | ✅ | 2/50 |
+| 12 | Davi Silveira | Country / Moda de Viola | Silveirânia, MG | ✅ | 2/50 |
+| 13 | MC Foguete | Funk Carioca / Baile Funk | Madureira, RJ | ✅ | 1/50 |
 
 ---
 
 ## Progresso Geral
-- ✅ Artistas criados: **10/10 — ELENCO COMPLETO!**
-- ✅ Avatares criados: **10/10 — TODOS PRONTOS!**
-- 🎵 Músicas com letra: 23/500
-- 🎵 Músicas geradas no Suno: 2/500
+- ✅ Artistas criados: **13/13**
+- ✅ Avatares criados: **13/13 — TODOS PRONTOS!**
+- 🎵 Músicas com letra: 30/650
+- 🎵 Músicas geradas no Suno: 16/650
 - 🎬 Lyric videos: 1 em andamento
 
 ---
@@ -62,6 +65,9 @@ Radio IA Fala Brasil.
 - ✅ Reggae Romântico
 - ✅ Pagodão Moderno
 - ✅ R&B Pop Brasileiro
+- ✅ Piseiro / Forró Pisadinha de Paredão
+- ✅ Country Brasileiro / Moda de Viola
+- ✅ Funk Carioca / Baile Funk
 
 ---
 
@@ -90,8 +96,17 @@ Radio IA Fala Brasil.
 | Nara Baiana | Rebola Brasil | Festa / dança |
 | Bianca Power | Sem Desculpa | Empoderamento feminino |
 | Bianca Power | É Hexa, Brasil! | Copa do Mundo 2026 |
+| Bianca Power | Ninguém Apaga Essa Luz | Superação — pop-rock estilo Roxette |
+| Bianca Power | Geração Corre | A vida real da geração 15-25 — corre e sonho |
 | Ravi & Maya | Dois Corações | Amor que nasceu na música |
 | Ravi & Maya | Mesmo Assim | Amor real — escolher o outro mesmo quando a vida é difícil |
+| Gordinho do Piseiro | Gordinho Gostoso (Ôh, Papai!) | Autoestima + festa — hino do paredão |
+| Gordinho do Piseiro | Apaguei | Festa / balada |
+| Davi Silveira | De Silveirânia a São José | Apresentação — raiz, viola e festa de peão |
+| Davi Silveira | Meu Coração Mora em Minas | Declaração de amor às raízes mineiras |
+| Davi Silveira | Menina de São José | Romance no baile da fazenda — vanera de rosto colado |
+| MC Foguete | Baile do Foguete | Apresentação — hino do baile de Madureira |
+| MC Foguete | Favela é Gente | Funk consciente — realidade do Rio e das favelas |
 
 ---
 

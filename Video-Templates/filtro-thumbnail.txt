@@ -1,0 +1,9 @@
+[0:v]scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,boxblur=20:4,eq=brightness=-0.15[bg];
+[1:v]scale=-1:720[fg];
+[bg][fg]overlay=20:0,
+drawbox=x=640:y=120:w=330:h=64:color=0x8B2F1A@0.95:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/georgiab.ttf':text='MÚSICA NOVA':fontcolor=white:fontsize=38:x=665:y=133,
+drawtext=fontfile='C\:/Windows/Fonts/georgiab.ttf':text='DE SILVEIRÂNIA':fontcolor=0xF2C14E:fontsize=62:borderw=4:bordercolor=0x2B1608:shadowcolor=black@0.6:shadowx=4:shadowy=4:x=640:y=255,
+drawtext=fontfile='C\:/Windows/Fonts/georgiab.ttf':text='A SÃO JOSÉ':fontcolor=0xF2C14E:fontsize=62:borderw=4:bordercolor=0x2B1608:shadowcolor=black@0.6:shadowx=4:shadowy=4:x=640:y=355,
+drawtext=fontfile='C\:/Windows/Fonts/georgiab.ttf':text='DAVI SILVEIRA':fontcolor=white:fontsize=40:borderw=3:bordercolor=black:x=640:y=500,
+drawtext=fontfile='C\:/Windows/Fonts/georgia.ttf':text='O Menino da Viola  •  Moda de Viola':fontcolor=0xE8DCC8:fontsize=28:borderw=2:bordercolor=black:x=640:y=560[v]

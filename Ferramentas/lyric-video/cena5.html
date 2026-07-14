@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:2400px; height:1350px; overflow:hidden; font-family:'Segoe UI',Arial,sans-serif; background:#0a0a0a; position:relative; }
+  .metade { position:absolute; top:0; bottom:0; width:50%; }
+  .br { left:0; background:linear-gradient(135deg,#0b7a3b 0%,#009c3b 60%,#04652a 100%); }
+  .us { right:0; background:linear-gradient(225deg,#1a2f6e 0%,#3c3b6e 55%,#22254d 100%); }
+  .losango { position:absolute; left:12%; top:50%; width:520px; height:520px; transform:translateY(-50%) rotate(45deg);
+    background:#ffdf00; border-radius:60px; opacity:.9; }
+  .globo { position:absolute; left:12%; top:50%; width:340px; height:340px; margin-left:90px; transform:translateY(-50%);
+    border-radius:50%; background:radial-gradient(circle at 35% 35%, #4a7fd4, #002776 75%); z-index:2; }
+  .listras { position:absolute; right:4%; top:20%; width:760px; height:520px; border-radius:24px; overflow:hidden;
+    background:repeating-linear-gradient(0deg,#b22234 0 40px,#fff 40px 80px); box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  .canton { position:absolute; width:46%; height:46%; background:#3c3b6e;
+    background-image:radial-gradient(circle, #fff 4px, transparent 5px); background-size:46px 40px; }
+  .divisa { position:absolute; left:50%; top:0; bottom:0; width:10px; transform:translateX(-50%);
+    background:linear-gradient(180deg,transparent,#fff 30%,#fff 70%,transparent); opacity:.5; }
+  .coracao { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); font-size:330px; z-index:5;
+    filter:drop-shadow(0 0 70px rgba(255,60,60,.8)); }
+  .rotulo { position:absolute; bottom:120px; width:100%; text-align:center; color:#fff; z-index:6; }
+  .rotulo .g { font-size:110px; font-weight:900; font-family:'Arial Black',Arial; text-shadow:0 10px 50px rgba(0,0,0,.95); }
+  .rotulo .p { font-size:48px; margin-top:10px; letter-spacing:6px; color:#e8e8e8; }
+  .vin { position:absolute; inset:0; background:radial-gradient(ellipse at center, transparent 45%, rgba(0,0,0,.72) 100%); z-index:4; }
+</style>
+<div class="metade br"></div><div class="metade us"></div>
+<div class="losango"></div><div class="globo"></div>
+<div class="listras"><div class="canton"></div></div>
+<div class="divisa"></div>
+<div class="vin"></div>
+<div class="coracao">❤️</div>
+<div class="rotulo"><div class="g">UM CORAÇÃO, DUAS CASAS</div><div class="p">BRASIL &nbsp;•&nbsp; ESTADOS UNIDOS</div></div>

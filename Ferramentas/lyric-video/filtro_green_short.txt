@@ -1,0 +1,12 @@
+[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg0];
+[0:v]scale=1080:-2[fg0];
+[bg0][fg0]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=10.70:d=0.3,setsar=1[c0];
+[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg1];
+[1:v]scale=1080:-2[fg1];
+[bg1][fg1]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=9.84:d=0.3,setsar=1[c1];
+[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg2];
+[2:v]scale=1080:-2[fg2];
+[bg2][fg2]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=10.14:d=1.4,setsar=1[c2];
+[c0][c1][c2]concat=n=3:v=1:a=0[vcat];
+[vcat]subtitles=letra_green_short.ass,format=yuv420p[vf];
+[3:a]afade=t=out:st=31.3:d=1.4[af]

@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:2400px; height:1350px; overflow:hidden; font-family:'Segoe UI',Arial,sans-serif;
+    background:linear-gradient(180deg,#060a06 0%,#0d1f10 50%,#12351a 100%); position:relative; }
+  .luz { position:absolute; width:900px; height:900px; left:50%; top:62%; transform:translate(-50%,-50%);
+    background:radial-gradient(circle,rgba(255,224,130,.5) 0%,transparent 65%); }
+  .envelope { position:absolute; font-size:340px; left:50%; top:60%; transform:translate(-50%,-50%) rotate(-6deg);
+    filter:drop-shadow(0 0 70px rgba(255,220,120,.5)); }
+  .brilho1 { position:absolute; font-size:130px; left:31%; top:34%; }
+  .brilho2 { position:absolute; font-size:100px; right:30%; bottom:22%; }
+  .cartao { position:absolute; right:16%; top:56%; width:420px; height:270px; border-radius:24px;
+    background:linear-gradient(135deg,#2ea35c,#1a7a40); transform:rotate(8deg);
+    box-shadow:0 30px 80px rgba(0,0,0,.6), 0 0 60px rgba(46,163,92,.5); }
+  .cartao::after { content:'★'; position:absolute; right:30px; top:14px; color:#d9f5e2; font-size:60px; }
+  .cartao::before { content:''; position:absolute; left:30px; top:70px; right:30px; height:120px;
+    background:repeating-linear-gradient(0deg, rgba(255,255,255,.5) 0 10px, transparent 10px 34px); }
+  .rotulo { position:absolute; top:110px; width:100%; text-align:center; color:#fff; }
+  .rotulo .g { font-size:118px; font-weight:900; font-family:'Arial Black',Arial;
+    text-shadow:0 8px 44px rgba(0,10,0,.9); }
+  .rotulo .p { font-size:50px; margin-top:14px; letter-spacing:6px; color:#b8e8c8; }
+  .vin { position:absolute; inset:0; background:radial-gradient(ellipse at center, transparent 50%, rgba(0,5,0,.7) 100%); }
+</style>
+<div class="luz"></div>
+<div class="envelope">✉️</div>
+<div class="cartao"></div>
+<div class="brilho1">✨</div>
+<div class="brilho2">✨</div>
+<div class="rotulo"><div class="g">A CARTA QUE MUDA TUDO</div><div class="p">ANOS DE ESPERA, FÉ E LUTA</div></div>
+<div class="vin"></div>

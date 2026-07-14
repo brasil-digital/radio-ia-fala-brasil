@@ -108,6 +108,8 @@ Brasileira: 🏆 "É Hexa, Brasil!"
 |---|---|---|---|
 | 01 | Sem Desculpa | Empoderamento feminino | Letra pronta |
 | 02 | É Hexa, Brasil! | Hino Copa do Mundo 2026 | Letra pronta |
-| 03 | A definir | - | Pendente |
+| 03 | Ninguém Apaga Essa Luz | Superação — pop-rock estilo Roxette | Gerada no Suno (02/jul) |
+| 04 | Geração Corre | A vida real da geração 15-25 — corre e sonho | Gerada no Suno — vídeo pronto |
+| 05 | A definir | - | Pendente |
 | ... | ... | ... | ... |
 | 50 | A definir | - | Pendente |

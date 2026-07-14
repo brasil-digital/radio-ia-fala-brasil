@@ -1,0 +1,7 @@
+[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=25:5,eq=brightness=-0.1[bg];
+[2:v]scale=1760:2160,zoompan=z='min(zoom+0.00012,1.10)':x='iw/2-(iw/zoom)/2':y='ih/2-(ih/zoom)/2':d=7500:s=880x1080:fps=30[fg];
+[bg][fg]overlay=(W-w)/2:(H-h)/2,
+drawbox=x=0:y=ih-140:w=iw:h=140:color=black@0.5:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/georgiab.ttf':text='De Silveirânia a São José':fontcolor=0xE8B84B:fontsize=58:x=(w-text_w)/2:y=h-125,
+drawtext=fontfile='C\:/Windows/Fonts/georgia.ttf':text='DAVI SILVEIRA  •  O Menino da Viola':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=h-52,
+format=yuv420p[v]
