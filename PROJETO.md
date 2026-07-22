@@ -4,14 +4,14 @@
 ---
 
 ## Visão Geral
-Uma revolução musical brasileira — 13 artistas virtuais criados com IA, cada um com 50 músicas
+Uma revolução musical brasileira — 14 artistas virtuais criados com IA, cada um com 50 músicas
 originais em estilos variados, distribuídas em plataformas digitais e transmitidas pela
 Radio IA Fala Brasil.
 
 ## Meta
-- 13 artistas virtuais ✅ COMPLETO
+- 14 artistas virtuais ✅ COMPLETO
 - 50 músicas por artista (em desenvolvimento)
-- 650 músicas no total
+- 700 músicas no total
 - Distribuição: YouTube, Spotify, Deezer, Apple Music
 - Canal: Radio IA Fala Brasil
 
@@ -25,7 +25,7 @@ Radio IA Fala Brasil.
 
 ---
 
-## Elenco Completo — 13 Artistas
+## Elenco Completo — 14 Artistas
 
 | # | Nome Artístico | Estilo | Origem | Avatar | Músicas |
 |---|---|---|---|---|---|
@@ -42,12 +42,13 @@ Radio IA Fala Brasil.
 | 11 | Gordinho do Piseiro | Piseiro / Forró de Paredão | Caruaru, PE | ✅ | 2/50 |
 | 12 | Davi Silveira | Country / Moda de Viola | Silveirânia, MG | ✅ | 2/50 |
 | 13 | MC Foguete | Funk Carioca / Baile Funk | Madureira, RJ | ✅ | 1/50 |
+| 14 | DJ Malock | Deep House Tropical | Florianópolis, SC | ✅ | 1/50 |
 
 ---
 
 ## Progresso Geral
-- ✅ Artistas criados: **13/13**
-- ✅ Avatares criados: **13/13 — TODOS PRONTOS!**
+- ✅ Artistas criados: **14/14**
+- ✅ Avatares criados: **14/14 — TODOS PRONTOS!**
 - 🎵 Músicas com letra: 30/650
 - 🎵 Músicas geradas no Suno: 16/650
 - 🎬 Lyric videos: 1 em andamento

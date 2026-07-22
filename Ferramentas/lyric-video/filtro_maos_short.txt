@@ -1,0 +1,15 @@
+[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg0];
+[0:v]scale=1080:-2[fg0];
+[bg0][fg0]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=8.52:d=0.3,setsar=1,fps=30[c0];
+[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg1];
+[1:v]scale=1080:-2[fg1];
+[bg1][fg1]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=13.46:d=0.3,setsar=1,fps=30[c1];
+[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg2];
+[2:v]scale=1080:-2[fg2];
+[bg2][fg2]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=13.30:d=0.3,setsar=1,fps=30[c2];
+[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg3];
+[3:v]scale=1080:-2[fg3];
+[bg3][fg3]overlay=(W-w)/2:(H-h)/2,fade=t=in:st=0:d=0.3,fade=t=out:st=8.74:d=0.3,setsar=1,fps=30[c3];
+[c0][c1][c2][c3]concat=n=4:v=1:a=0[vcat];
+[vcat]subtitles=letra_maos_short.ass,format=yuv420p[vf];
+[4:a]atrim=start=150.78:end=196.0,asetpts=PTS-STARTPTS,afade=t=out:st=43.82:d=1.4[af]

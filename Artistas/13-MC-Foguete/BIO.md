@@ -134,6 +134,9 @@ o chão de Madureira treme.
 | 04 | Segunda Casa, Primeiro Amor | Homenagem aos brasileiros de Massachusetts/EUA | Clipe lyric video + Short + thumb prontos (13/jul) |
 | 05 | Sonho Sem Fronteira | A jornada do imigrante brasileiro | Clipe + Short + Story + thumb prontos (13/jul) — MP3 truncado em 4:35, ver .md |
 | 06 | Green Card, Meu Passaporte Pra Liberdade | A conquista do documento | Clipe + Short + Story + thumb prontos (13/jul) |
-| 07 | A definir | - | Pendente |
+| 07 | Mãos de Trabalhador | Homenagem ao pai trabalhador — o herói que não sai no jornal | Clipe realístico (12 cenas Gemini) + Short + Story + thumb prontos (16/jul) |
+| 08 | Motoboy — O Brasil Roda Com Você | Pancadão pesado em homenagem aos motoboys e motogirls do Brasil | Letra + prompt Suno prontos (18/jul) |
+| 10 | Bate Forte, Brasil! | Batidão forte e brilhante — hino positivo e vibrante ao país | Letra + prompt Suno prontos (21/jul) |
+| 11 | Sobe o Som, Cai o Chão | Pancadão pesado — ascensão de quem não tinha nada até virar o dono da pista | Letra + prompt Suno prontos (21/jul) |
 | ... | ... | ... | ... |
 | 50 | A definir | - | Pendente |

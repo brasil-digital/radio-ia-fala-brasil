@@ -1,0 +1,70 @@
+[Script Info]
+Title: Passageiro do Mundo - MC Foguete
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyric,Montserrat,54,&H00FFFFFF,&H0000D7FF,&H00202020,&H80000000,1,0,0,0,100,100,0,0,1,3,1,2,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.18,0:00:07.32,Lyric,,0,0,0,,{\k66} É{\k66} foguete,{\k116} dessa{\k26} vez{\k20} a{\k68} decolagem{\k18} é{\k10} de{\k102} verdade
+Dialogue: 0,0:00:10.04,0:00:14.12,Lyric,,0,0,0,,{\k66} Passaporte{\k22} na{\k36} mão,{\k18} mundo{\k36} inteiro{\k20} de{\k54} cidade{\k26} em{\k96} cidade
+Dialogue: 0,0:00:14.12,0:00:19.60,Lyric,,0,0,0,,{\k112} Bora{\k22} que{\k12} o{\k24} mapa{\k26} tá{\k62} aberto{\k26} e{\k18} o{\k58} sonho{\k32} não{\k36} tem{\k120} fronteira
+Dialogue: 0,0:00:20.38,0:00:24.10,Lyric,,0,0,0,,{\k66} Do{\k52} asfalto{\k22} até{\k34} nuvem{\k30} saí{\k42} correndo{\k24} atrás{\k18} do{\k84} horizonte
+Dialogue: 0,0:00:24.10,0:00:29.88,Lyric,,0,0,0,,{\k120} Deixei{\k14} o{\k24} medo{\k24} na{\k76} bagagem,{\k90} trouxe{\k20} só{\k60} coragem{\k28} na{\k112} fronte
+Dialogue: 0,0:00:31.02,0:00:33.54,Lyric,,0,0,0,,{\k60} Paris{\k18} me{\k48} chamando,{\k20} torre{\k12} em{\k6} pé{\k28} como{\k16} um{\k30} farol
+Dialogue: 0,0:00:33.54,0:00:36.26,Lyric,,0,0,0,,{\k38} Roma{\k20} me{\k42} contando{\k28} história{\k20} em{\k22} cada{\k36} pedra{\k26} sob{\k16} o{\k24} sol
+Dialogue: 0,0:00:36.26,0:00:38.88,Lyric,,0,0,0,,{\k48} Marrocos{\k46} pintando{\k22} o{\k16} céu{\k18} de{\k56} tempero{\k14} e{\k14} de{\k28} cor
+Dialogue: 0,0:00:38.88,0:00:41.86,Lyric,,0,0,0,,{\k64} Deserto{\k22} me{\k44} ensinando{\k20} que{\k48} silêncio{\k34} também{\k26} é{\k10} um{\k30} valor
+Dialogue: 0,0:00:41.86,0:00:45.06,Lyric,,0,0,0,,{\k46} Cada{\k44} país{\k18} um{\k54} idioma,{\k20} cada{\k30} rumo{\k14} um{\k24} novo{\k54} som
+Dialogue: 0,0:00:45.06,0:00:50.42,Lyric,,0,0,0,,{\k112} Eu{\k38} virei{\k38} tradutor{\k34} da{\k82} vida,{\k2} eu{\k46} virei{\k18} o{\k42} próprio{\k36} dom
+Dialogue: 0,0:00:50.42,0:00:55.96,Lyric,,0,0,0,,{\k120} Eu{\k16} sou{\k96} passageiro{\k26} do{\k58} mundo,{\k56} viajo{\k38} sem{\k60} parar
+Dialogue: 0,0:00:55.96,0:01:01.38,Lyric,,0,0,0,,{\k86} Cada{\k44} cultura{\k28} é{\k82} universo,{\k36} cada{\k64} povo{\k40} me{\k82} orgulhar
+Dialogue: 0,0:01:01.38,0:01:06.82,Lyric,,0,0,0,,{\k82} Não{\k20} é{\k38} sobre{\k30} a{\k34} mala{\k68} cheia,{\k18} é{\k38} sobre{\k24} a{\k44} alma{\k40} que{\k36} se{\k60} enche
+Dialogue: 0,0:01:06.82,0:01:12.20,Lyric,,0,0,0,,{\k80} Viaja{\k22} a{\k34} única{\k118} fortuna,{\k12} que{\k54} ninguém{\k74} nunca{\k40} me{\k68} vence
+Dialogue: 0,0:01:12.20,0:01:16.96,Lyric,,0,0,0,,{\k158} Passageiro{\k32} do{\k72} mundo,{\k70} coração{\k54} sem{\k50} fronteira
+Dialogue: 0,0:01:17.50,0:01:22.68,Lyric,,0,0,0,,{\k44} Cada{\k28} por{\k22} do{\k34} sol{\k98} diferente,{\k64} é{\k26} uma{\k82} nova{\k120} bandeira
+Dialogue: 0,0:01:23.94,0:01:26.86,Lyric,,0,0,0,,{\k52} Tóquio{\k16} de{\k34} neon,{\k42} tradição{\k16} e{\k6} o{\k36} futuro{\k28} lado{\k16} a{\k24} lado
+Dialogue: 0,0:01:26.86,0:01:29.68,Lyric,,0,0,0,,{\k36} Tempo{\k64} silencioso{\k20} do{\k26} lado{\k22} de{\k12} um{\k14} mundo{\k88} automatizado
+Dialogue: 0,0:01:29.68,0:01:32.12,Lyric,,0,0,0,,{\k38} Índia{\k64} colorida{\k44} gritando{\k14} em{\k16} cada{\k68} especiaria
+Dialogue: 0,0:01:32.12,0:01:34.78,Lyric,,0,0,0,,{\k30} Fé{\k12} que{\k30} pulsa{\k22} mais{\k26} forte{\k18} que{\k8} o{\k44} barulho{\k18} do{\k26} dia{\k18} a{\k14} dia
+Dialogue: 0,0:01:34.78,0:01:37.38,Lyric,,0,0,0,,{\k30} Nova{\k32} York{\k52} correndo,{\k44} relógio{\k18} que{\k28} nunca{\k44} dorme
+Dialogue: 0,0:01:37.38,0:01:40.22,Lyric,,0,0,0,,{\k38} África{\k24} com{\k42} ritmo{\k22} que{\k24} faz{\k12} o{\k28} sangue{\k34} tomar{\k30} outra{\k30} forma
+Dialogue: 0,0:01:40.22,0:01:43.42,Lyric,,0,0,0,,{\k30} Cada{\k34} povo{\k26} com{\k20} seu{\k24} jeito{\k24} de{\k42} rezar,{\k2} de{\k50} sorrir,{\k12} de{\k30} lutar
+Dialogue: 0,0:01:43.42,0:01:47.10,Lyric,,0,0,0,,{\k26} Eu{\k42} aprendi{\k18} mais{\k14} no{\k30} mundo{\k18} do{\k16} que{\k30} dentro{\k22} de{\k46} qualquer{\k106} lugar
+Dialogue: 0,0:01:47.10,0:01:51.64,Lyric,,0,0,0,,{\k68} Eu{\k16} sou{\k290} passageiro{\k22} do{\k58} mundo
+Dialogue: 0,0:01:51.64,0:01:56.52,Lyric,,0,0,0,,{\k142} Viajo{\k42} sem{\k60} parar,{\k72} cada{\k40} cultura{\k26} é{\k12} um{\k80} universo
+Dialogue: 0,0:01:56.52,0:01:59.40,Lyric,,0,0,0,,{\k86} Cada{\k90} povo{\k28} um{\k36} novo{\k48} olhar
+Dialogue: 0,0:01:59.40,0:02:04.90,Lyric,,0,0,0,,{\k90} Não{\k20} é{\k40} sobre{\k26} a{\k38} mala{\k68} cheia,{\k8} é{\k36} sobre{\k28} a{\k42} alma{\k40} que{\k40} se{\k54} enche
+Dialogue: 0,0:02:04.90,0:02:10.16,Lyric,,0,0,0,,{\k78} Viajo{\k10} é{\k18} a{\k34} única{\k118} fortuna{\k46} que{\k56} ninguém{\k72} nunca{\k36} me{\k58} vence
+Dialogue: 0,0:02:10.16,0:02:15.60,Lyric,,0,0,0,,{\k174} Passageiro{\k28} do{\k76} mundo,{\k58} coração{\k56} sem{\k100} fronteira
+Dialogue: 0,0:02:15.60,0:02:20.80,Lyric,,0,0,0,,{\k48} Cada{\k28} pôr{\k16} do{\k42} sol{\k94} diferente{\k58} é{\k36} uma{\k80} nova{\k118} bandeira
+Dialogue: 0,0:02:21.54,0:02:24.92,Lyric,,0,0,0,,{\k56} E{\k16} no{\k30} meio{\k20} da{\k42} viagem{\k18} eu{\k40} entendi{\k18} o{\k34} real{\k64} motivo
+Dialogue: 0,0:02:24.92,0:02:27.78,Lyric,,0,0,0,,{\k34} Não{\k18} é{\k44} fugir{\k16} de{\k40} casa,{\k4} é{\k42} voltar{\k40} mais{\k34} vivo
+Dialogue: 0,0:02:27.78,0:02:30.50,Lyric,,0,0,0,,{\k18} O{\k18} mundo{\k26} não{\k26} te{\k46} muda,{\k6} o{\k20} mundo{\k28} te{\k78} revela
+Dialogue: 0,0:02:30.50,0:02:33.56,Lyric,,0,0,0,,{\k16} Quem{\k38} você{\k24} é{\k12} de{\k50} verdade{\k38} por{\k30} trás{\k20} da{\k78} janela
+Dialogue: 0,0:02:33.56,0:02:36.62,Lyric,,0,0,0,,{\k74} Pérsia{\k30} me{\k70} ensinando{\k50} mito{\k15} e{\k67} filosofia
+Dialogue: 0,0:02:36.62,0:02:40.04,Lyric,,0,0,0,,{\k52} México{\k60} gritando{\k26} cor{\k20} em{\k20} cada{\k34} altar,{\k16} em{\k30} cada{\k66} olhada
+Dialogue: 0,0:02:40.04,0:02:42.42,Lyric,,0,0,0,,{\k48} China{\k40} Antiga{\k50} guardando{\k46} muralha{\k12} em{\k42} segredo
+Dialogue: 0,0:02:42.42,0:02:45.50,Lyric,,0,0,0,,{\k20} Rio{\k12} de{\k42} Janeiro{\k56} sorrindo,{\k52} batucando{\k28} meu{\k84} enredo
+Dialogue: 0,0:02:45.50,0:02:48.32,Lyric,,0,0,0,,{\k46} Não{\k40} importa{\k16} o{\k50} continente,{\k8} o{\k48} idioma{\k18} ou{\k12} a{\k34} moeda
+Dialogue: 0,0:02:48.32,0:02:51.22,Lyric,,0,0,0,,{\k34} Ser{\k26} humano{\k18} é{\k8} o{\k32} mesmo,{\k20} só{\k32} muda{\k12} a{\k16} forma{\k22} que{\k18} se{\k46} enreda
+Dialogue: 0,0:02:51.22,0:02:53.72,Lyric,,0,0,0,,{\k42} Viajar{\k18} é{\k36} entender{\k20} que{\k8} a{\k50} diferença{\k20} é{\k6} o{\k14} que{\k36} une
+Dialogue: 0,0:02:53.72,0:02:58.24,Lyric,,0,0,0,,{\k28} Cada{\k48} cultura{\k16} um{\k84} tesouro,{\k22} cada{\k58} povo{\k38} uma{\k124} fortuna
+Dialogue: 0,0:02:58.24,0:03:02.96,Lyric,,0,0,0,,{\k38} Eu{\k16} sou{\k100} passageiro{\k22} do{\k56} mundo,{\k70} viajo{\k40} sem{\k58} parar
+Dialogue: 0,0:03:02.96,0:03:08.38,Lyric,,0,0,0,,{\k90} Cada{\k56} cultura{\k24} é{\k78} universo,{\k32} cada{\k64} povo{\k32} um{\k44} novo{\k42} olhar
+Dialogue: 0,0:03:08.38,0:03:13.98,Lyric,,0,0,0,,{\k92} Não{\k20} é{\k42} sobre{\k24} a{\k40} mala{\k68} cheia,{\k6} é{\k38} sobre{\k18} a{\k54} alma{\k40} que{\k28} se{\k68} enche
+Dialogue: 0,0:03:13.98,0:03:19.32,Lyric,,0,0,0,,{\k76} Viaja{\k22} é{\k1} a{\k28} única{\k120} fortuna{\k40} que{\k60} ninguém{\k86} nunca{\k44} me{\k58} vence
+Dialogue: 0,0:03:19.32,0:03:24.76,Lyric,,0,0,0,,{\k168} Passageiro{\k30} do{\k76} mundo,{\k68} coração{\k54} sem{\k104} fronteira
+Dialogue: 0,0:03:24.76,0:03:30.00,Lyric,,0,0,0,,{\k46} Cada{\k36} pôr{\k10} do{\k40} sol{\k108} diferente{\k48} é{\k34} uma{\k82} nova{\k120} bandeira
+Dialogue: 0,0:03:30.00,0:03:34.86,Lyric,,0,0,0,,{\k182} O{\k26} mundo{\k18} é{\k52} grande{\k100} e{\k10} a{\k22} vida{\k18} é{\k58} curta
+Dialogue: 0,0:03:36.88,0:03:40.78,Lyric,,0,0,0,,{\k96} Mas{\k38} guarda{\k24} mais{\k58} ainda{\k12} o{\k8} que{\k22} essa{\k58} jornada{\k74} aponta
+Dialogue: 0,0:03:40.78,0:03:43.34,Lyric,,0,0,0,,{\k172} Foguete{\k84} decolou
+Dialogue: 0,0:03:43.34,0:03:46.40,Lyric,,0,0,0,,{\k120} Mas{\k34} agora{\k26} é{\k66} sobrevoo{\k60} mundial
+Dialogue: 0,0:03:46.40,0:03:50.94,Lyric,,0,0,0,,{\k242} Próximo{\k64} destino{\k42} já{\k18} tá{\k16} te{\k72} chamando
+Dialogue: 0,0:03:50.94,0:03:52.50,Lyric,,0,0,0,,{\k118} É{\k38} sinal

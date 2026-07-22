@@ -12,7 +12,7 @@
 | **Bordão** | "Isso é Minas, uai!" |
 | **Idade** | 20 anos |
 | **Origem** | Silveirânia, MG — Zona da Mata de Minas Gerais (Sudeste) |
-| **Estilo** | Country brasileiro / Moda de viola / Sertanejo raiz mineiro |
+| **Estilo** | Country brasileiro / Moda de viola / Sertanejo raiz mineiro + Brega romântico (lado B) |
 | **Instrumentos** | Viola caipira e sanfona |
 | **Cores** | Marrom couro, verde mata e dourado palha |
 | **Logo** | Viola caipira cruzada com uma sanfona |
@@ -41,6 +41,12 @@ a saudade de quem foi tentar a vida na cidade grande. Quando ele sobe
 no palco de bota e chapéu e solta o "Isso é Minas, uai!", a festa de
 peão inteira levanta.
 
+Fora da moda de viola, Davi também tem um lado B: cresceu ouvindo o
+rádio AM do pai tocando brega raiz na cozinha de casa, e de vez em
+quando solta a voz nesse estilo mais dramático e sofrido — sempre
+com a mesma cara limpa e o mesmo jeito sincero de menino do interior,
+só que agora cantando o coração partido em vez da fazenda.
+
 ---
 
 ## Estilo Musical
@@ -51,6 +57,12 @@ peão inteira levanta.
 - Voz jovem e afinada — baladas emocionantes e modas animadas
 - Músicas que fazem dançar: catira, vanera e country dance brasileiro
 - Bordão "Isso é Minas, uai!" nas viradas
+
+**Lado B — Brega romântico:**
+- Brega raiz dramático (referência Waldick Soriano, Amado Batista)
+- Mesma voz jovem e límpida, agora em tom sofrido e melodramático
+- Letras de amor exagerado, saudade e reconciliação
+- Teclado anos 90 e violão romântico no lugar da viola
 
 ---
 
@@ -132,6 +144,9 @@ Quando ele solta o "Isso é Minas, uai!", a festa levanta.
 | 01 | De Silveirânia a São José | Apresentação — raiz, viola e festa de peão | ✅ Postada no YouTube (09/jul/2026) |
 | 02 | Meu Coração Mora em Minas | Declaração de amor às raízes mineiras | Gerada no Suno — vídeo pronto |
 | 03 | Menina de São José | Romance no baile da fazenda (continuação da 01) | Gerada no Suno — vídeo pronto |
-| 04 | A definir | - | Pendente |
+| 04 | Liga que Eu Atendo | 🎭 Brega — reconciliação, ligação de madrugada | Letra pronta |
+| 05 | Chorei mas Neguei | 🎭 Brega — sofrência, orgulho ferido | Letra pronta |
+| 06 | Buquê de Plástico | 🎭 Brega — amor simples, gesto romântico | Letra pronta |
+| 07 | A definir | - | Pendente |
 | ... | ... | ... | ... |
 | 50 | A definir | - | Pendente |

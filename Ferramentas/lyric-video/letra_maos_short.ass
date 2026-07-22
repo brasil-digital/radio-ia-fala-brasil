@@ -1,0 +1,26 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Letra,Arial,60,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,80,80,420,1
+Style: Refrao,Arial,64,&H004AD2FF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,80,80,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.17,Refrao,,0,0,0,,Mão de trabalhador, marcada\Nde cimento e de amor
+Dialogue: 0,0:00:03.22,0:00:05.97,Refrao,,0,0,0,,Cada ruga no rosto é uma prova de valor
+Dialogue: 0,0:00:06.02,0:00:08.77,Refrao,,0,0,0,,Não pediu esmola, não baixou a cabeça
+Dialogue: 0,0:00:08.82,0:00:11.83,Refrao,,0,0,0,,Ergueu com o próprio suor,\Na casa e a própria peça
+Dialogue: 0,0:00:11.88,0:00:15.77,Refrao,,0,0,0,,Mão de trabalhador, o Brasil é feito assim
+Dialogue: 0,0:00:15.82,0:00:18.96,Refrao,,0,0,0,,Silencioso, forte, lutando até o fim
+Dialogue: 0,0:00:22.58,0:00:24.87,Letra,,0,0,0,,Essa aqui é pra você, pai de família
+Dialogue: 0,0:00:24.92,0:00:27.83,Letra,,0,0,0,,Que rala, que sofre, mas\Nnunca desiste da batalha
+Dialogue: 0,0:00:27.88,0:00:31.15,Letra,,0,0,0,,Seu nome talvez nunca tá em\Nmanchete, nunca tá em revista
+Dialogue: 0,0:00:31.20,0:00:35.22,Letra,,0,0,0,,Mas na sua casa você é o herói\Nque ninguém nunca esquece
+Dialogue: 0,0:00:36.18,0:00:38.02,Letra,,0,0,0,,Foguete decola
+Dialogue: 0,0:00:38.58,0:00:40.72,Letra,,0,0,0,,Mas os pés no chão
+Dialogue: 0,0:00:42.46,0:00:44.30,Letra,,0,0,0,,Vieram de você

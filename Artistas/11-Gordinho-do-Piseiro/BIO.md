@@ -120,6 +120,7 @@ Quando ele solta o "Ôh, papai!", pode aumentar o volume.
 | # | Título | Tema | Status |
 |---|---|---|---|
 | 01 | Gordinho Gostoso (Ôh, Papai!) | Autoestima + festa — hino viral do paredão | Letra pronta |
-| 02 | A definir | - | Pendente |
+| 02 | Apaguei (Cadê a Memória?) | Bebeu, apagou e descobriu que ficou noivo | Letra pronta |
+| 03 | A Saudade Tá Com Fome | Pagode romântico — sofrência com humor | Letra + prompt Suno prontos (18/jul) |
 | ... | ... | ... | ... |
 | 50 | A definir | - | Pendente |

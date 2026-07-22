@@ -126,6 +126,10 @@ o Grek chegou pra ficar.
 | 01 | Planalto no Piseiro | Amor na pista / identidade | Trap + Piseiro | Letra pronta |
 | 02 | Do Caderno pro Palco | Trajetória / superação | Rap + Trap puro | Letra pronta |
 | 03 | Ilusão Bonita | Romantismo + desilusão | Trap melódico | Letra pronta |
-| 04 | A definir | - | - | Pendente |
+| 04 | Road to 26 | - | - | Letra pronta |
+| 05 | Nova Geração | - | - | Letra pronta |
+| 06 | Depois do Flash | - | - | Letra pronta |
+| 07 | Concreto Treme | Superação, força, identidade | Hip-hop hardcore | Letra pronta |
+| 08 | Sobe o Grave | Fusão trap + piseiro, grave pesado | Trap + Piseiro batido | Letra pronta |
 | ... | ... | ... | ... | ... |
 | 50 | A definir | - | - | Pendente |

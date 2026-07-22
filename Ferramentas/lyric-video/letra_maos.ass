@@ -1,0 +1,70 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Letra,Arial,58,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,80,80,70,1
+Style: Refrao,Arial,62,&H004AD2FF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,80,80,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:21.10,0:00:22.51,Letra,,0,0,0,,5 da manhã
+Dialogue: 0,0:00:22.56,0:00:24.83,Letra,,0,0,0,,O despertador nem precisa tocar
+Dialogue: 0,0:00:24.88,0:00:27.61,Letra,,0,0,0,,Corpo cansado mas a vontade não deixa parar
+Dialogue: 0,0:00:27.66,0:00:29.81,Letra,,0,0,0,,Pega a marmita que a esposa acordou cedo
+Dialogue: 0,0:00:29.86,0:00:31.57,Letra,,0,0,0,,Pra fazer; beija o filho dormindo
+Dialogue: 0,0:00:31.62,0:00:33.43,Letra,,0,0,0,,Sai sem fazer barulho, sem ferir
+Dialogue: 0,0:00:33.48,0:00:35.91,Letra,,0,0,0,,Obra na chuva, sol quente, rachando cimento
+Dialogue: 0,0:00:35.96,0:00:38.93,Letra,,0,0,0,,Cada tijolo que ele ergue\Né um pedaço do sustento
+Dialogue: 0,0:00:38.98,0:00:42.03,Letra,,0,0,0,,Não tem currículo bonito,\Nnão tem diploma na parede
+Dialogue: 0,0:00:42.08,0:00:44.95,Letra,,0,0,0,,Tem calo, tem suor, tem uma\Nfamília que dele depende
+Dialogue: 0,0:00:45.00,0:00:48.31,Refrao,,0,0,0,,Mãos de trabalhador,\Nmarcada de cimento e de amor
+Dialogue: 0,0:00:48.36,0:00:51.05,Refrao,,0,0,0,,Cada ruga no rosto é uma prova de valor
+Dialogue: 0,0:00:51.10,0:00:53.83,Refrao,,0,0,0,,Não pediu esmola, não baixou a cabeça
+Dialogue: 0,0:00:53.88,0:00:56.87,Refrao,,0,0,0,,Ergueu com o próprio suor,\Na casa e a própria peça
+Dialogue: 0,0:00:56.92,0:01:00.87,Refrao,,0,0,0,,A mão de trabalhador, o Brasil é feito assim
+Dialogue: 0,0:01:00.92,0:01:03.90,Refrao,,0,0,0,,Silencioso, forte, lutando até o fim
+Dialogue: 0,0:01:07.48,0:01:10.37,Letra,,0,0,0,,Fim de semana ele ainda faz um bico a mais
+Dialogue: 0,0:01:10.42,0:01:13.13,Letra,,0,0,0,,Reforma na casa do vizinho, ajuda os pais
+Dialogue: 0,0:01:13.18,0:01:15.75,Letra,,0,0,0,,Liga pra mãe, pergunta se falta remédio
+Dialogue: 0,0:01:15.80,0:01:19.09,Letra,,0,0,0,,Divide o pouco que tem, isso\Nnão tem preço, não tem prêmio
+Dialogue: 0,0:01:19.14,0:01:21.49,Letra,,0,0,0,,A esposa às vezes reclama que ele nunca para
+Dialogue: 0,0:01:21.54,0:01:24.49,Letra,,0,0,0,,Mas no fundo ela sabe, é\Namor que não se declara
+Dialogue: 0,0:01:24.54,0:01:27.03,Letra,,0,0,0,,Ele não fala, eu te amo com palavra bonita
+Dialogue: 0,0:01:27.08,0:01:30.15,Letra,,0,0,0,,Fala trabalhando, fala quando\No prato não fica vazio
+Dialogue: 0,0:01:30.20,0:01:31.07,Letra,,0,0,0,,Fala com a vida
+Dialogue: 0,0:01:31.12,0:01:34.33,Refrao,,0,0,0,,Mãos de trabalhador,\Nmarcada de cimento e de amor
+Dialogue: 0,0:01:34.38,0:01:37.11,Refrao,,0,0,0,,Cada ruga no rosto é uma prova de valor
+Dialogue: 0,0:01:37.16,0:01:39.89,Refrao,,0,0,0,,Não pediu esmola, não baixou a cabeça
+Dialogue: 0,0:01:39.94,0:01:42.93,Refrao,,0,0,0,,Ergueu com o próprio suor,\Na casa e a própria peça
+Dialogue: 0,0:01:42.98,0:01:46.89,Refrao,,0,0,0,,Mãos de trabalhador, o Brasil é feito assim
+Dialogue: 0,0:01:46.94,0:01:49.92,Refrao,,0,0,0,,Silencioso, forte, lutando até o fim
+Dialogue: 0,0:01:53.48,0:01:56.55,Letra,,0,0,0,,Um dia o filho vai crescer e vai entender
+Dialogue: 0,0:01:56.60,0:01:59.35,Letra,,0,0,0,,Que o pai cansado nunca deixou de vencer
+Dialogue: 0,0:01:59.40,0:02:01.73,Letra,,0,0,0,,Que cada ausência era a presença disfarçada
+Dialogue: 0,0:02:01.78,0:02:06.45,Letra,,0,0,0,,Trabalhando pra que a casa\Nnunca ficasse vazia nem trancada
+Dialogue: 0,0:02:06.50,0:02:09.95,Letra,,0,0,0,,Ele não é herói de capa,\Nnão sai manchete de jornal
+Dialogue: 0,0:02:10.00,0:02:12.67,Letra,,0,0,0,,Mas segura o mundo nas\Ncostas igual um profissional
+Dialogue: 0,0:02:12.72,0:02:15.53,Letra,,0,0,0,,Chega em casa exausto, mas\Nainda brinca com o pequeno
+Dialogue: 0,0:02:15.58,0:02:18.33,Letra,,0,0,0,,Ainda escuta a esposa, ainda\Nsorri mesmo com o pouco tempo
+Dialogue: 0,0:02:18.38,0:02:21.11,Letra,,0,0,0,,Ajuda os pais idosos, não esquece de onde veio
+Dialogue: 0,0:02:21.16,0:02:23.89,Letra,,0,0,0,,Ensina o filho a ser homem\Natravés do próprio exemplo
+Dialogue: 0,0:02:23.94,0:02:26.69,Letra,,0,0,0,,Sem receio, não é sobre\Ndinheiro, é sobre presença
+Dialogue: 0,0:02:26.74,0:02:28.71,Letra,,0,0,0,,Que constrói um pai que trabalha com amor
+Dialogue: 0,0:02:28.76,0:02:30.73,Letra,,0,0,0,,Vale mais que qualquer herói
+Dialogue: 0,0:02:30.78,0:02:33.95,Refrao,,0,0,0,,Mão de trabalhador, marcada\Nde cimento e de amor
+Dialogue: 0,0:02:34.00,0:02:36.75,Refrao,,0,0,0,,Cada ruga no rosto é uma prova de valor
+Dialogue: 0,0:02:36.80,0:02:39.55,Refrao,,0,0,0,,Não pediu esmola, não baixou a cabeça
+Dialogue: 0,0:02:39.60,0:02:42.61,Refrao,,0,0,0,,Ergueu com o próprio suor,\Na casa e a própria peça
+Dialogue: 0,0:02:42.66,0:02:46.55,Refrao,,0,0,0,,Mão de trabalhador, o Brasil é feito assim
+Dialogue: 0,0:02:46.60,0:02:49.74,Refrao,,0,0,0,,Silencioso, forte, lutando até o fim
+Dialogue: 0,0:02:53.36,0:02:55.65,Letra,,0,0,0,,Essa aqui é pra você, pai de família
+Dialogue: 0,0:02:55.70,0:02:58.61,Letra,,0,0,0,,Que rala, que sofre, mas\Nnunca desiste da batalha
+Dialogue: 0,0:02:58.66,0:03:01.93,Letra,,0,0,0,,Seu nome talvez nunca tá em\Nmanchete, nunca tá em revista
+Dialogue: 0,0:03:01.98,0:03:06.00,Letra,,0,0,0,,Mas na sua casa você é o herói\Nque ninguém nunca esquece
+Dialogue: 0,0:03:06.96,0:03:08.80,Letra,,0,0,0,,Foguete decola
+Dialogue: 0,0:03:09.36,0:03:11.50,Letra,,0,0,0,,Mas os pés no chão
+Dialogue: 0,0:03:13.24,0:03:15.08,Letra,,0,0,0,,Vieram de você

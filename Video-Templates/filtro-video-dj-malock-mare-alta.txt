@@ -1,0 +1,7 @@
+[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=25:5,eq=brightness=-0.15[bg];
+[2:v]scale=2000:2000,zoompan=z='min(zoom+0.000008,1.08)':x='iw/2-(iw/zoom)/2':y='ih/2-(ih/zoom)/2':d=9900:s=1000x1000:fps=30[fg];
+[bg][fg]overlay=(W-w)/2:(H-h)/2-40,
+drawbox=x=0:y=ih-160:w=iw:h=160:color=black@0.55:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/georgiab.ttf':text='MARÉ ALTA':fontcolor=0xF2C14E:fontsize=64:x=(w-text_w)/2:y=h-145,
+drawtext=fontfile='C\:/Windows/Fonts/georgia.ttf':text='DJ MALOCK  •  Deep House Tropical':fontcolor=white:fontsize=32:x=(w-text_w)/2:y=h-55,
+format=yuv420p[v]
