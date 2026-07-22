@@ -142,4 +142,15 @@ export const artists = [
     songs: ['Baile do Foguete', 'Favela é Gente'],
     youtube: 'https://www.youtube.com/@ritmos-do-brasil',
   },
+  {
+    id: 14,
+    name: 'DJ Malock',
+    style: 'Deep House Tropical',
+    origin: 'Florianópolis, SC',
+    color: '#0F6B5C',
+    emoji: '🌊',
+    avatar: '/avatars/14-DJ-Malock.png',
+    songs: ['Maré Alta', 'Vibe Máxima'],
+    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+  },
 ]
