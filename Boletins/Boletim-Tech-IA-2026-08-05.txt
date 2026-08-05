@@ -1,0 +1,24 @@
+# Boletim de Tecnologia & IA — Rádio Fala Brasil
+# Data: 05/08/2026 | Voz: Ronny | Duração estimada: ~50s
+
+## ROTEIRO (leitura)
+
+E aí, Boston! Aqui é o Ronny com mais uma notícia quentinha de tecnologia e inteligência artificial, na Rádio Fala Brasil!
+
+Lá no Brasil, Brasília virou o centro das atenções hoje e amanhã: começou o SECOP 2026, o Seminário Nacional de TIC para Gestão Pública, reunindo governo federal, estados e prefeituras pra discutir como usar inteligência artificial no serviço público — do atendimento ao cidadão até a análise de dados dentro dos órgãos. E o Brasil já não tá de bobeira: uma pesquisa da KPMG mostrou que cem por cento das empresas brasileiras ouvidas já implementaram algum tipo de automação ou IA no dia a dia.
+
+E lá fora, o mundo da IA também não para: a empresa Anaconda comprou a Enkrypt AI, uma startup de segurança que testa e blinda sistemas de inteligência artificial contra ataques antes de irem pro ar. E na disputa dos modelos, a chinesa DeepSeek lançou o V4 Flash com preço mais em conta, enquanto os planos mais baratos da Claude, da Anthropic, sobem de preço a partir de setembro.
+
+Tecnologia boa é tecnologia que a gente entende — e aqui na Rádio Fala Brasil a gente traduz isso pra você! Fica ligado que vem mais novidade por aí. Um abraço do Ronny!
+
+---
+
+## Fontes
+- SECOP 2026 (Brasília, 5–6/08): https://glaunacapital.com/2026/07/23/brasilia-recebe-secop-2026-com-foco-em-ia-e-governanca-de-dados-no-setor-publico/
+- KPMG Global Tech Report 2026 (automação/IA nas empresas BR): https://kpmg.com/br/pt/insights/2026/04/ganhos-desafios-era-inteligencia.html
+- Anaconda adquire Enkrypt AI: https://aiweekly.co/ai-news-today
+- DeepSeek V4 Flash sai do preview / Claude Sonnet 5 reajuste de preço (01/09): https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx
+
+## Observações de produção
+- Sem ELEVENLABS_API_KEY configurada neste ambiente — áudio não foi gerado automaticamente.
+- Para narrar: rodar gerar-spot.ps1 (ou adaptar gerar-boletim.ps1) usando este texto como $roteiro, ou colar o texto acima direto no ElevenLabs com a Voz do Ronny (EY32nkT8HLbeyhhUFVlv).
