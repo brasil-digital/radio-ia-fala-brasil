@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { MediaSession } from '@jofr/capacitor-media-session'
 import { artists } from './data/artists'
+import LiveBroadcast from './components/LiveBroadcast'
 
 // ⚠️ Substitua pela URL real do seu stream BR Logic
 const STREAM_URL = 'https://servidor29-1.brlogic.com:7018/live'
@@ -232,6 +233,8 @@ export default function App() {
               </svg>
             </div>
           </div>
+
+          <LiveBroadcast />
 
           <p className="mt-8 text-gray-300 text-base md:text-lg">
             Uma parceria oficial{' '}

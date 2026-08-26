@@ -1,0 +1,47 @@
+name: Transmissão Ao Vivo - Gerar edições diárias
+
+on:
+  schedule:
+    - cron: '30 9 * * *'   # 09:30 UTC — antes das 12h ET tanto em EDT (UTC-4) quanto EST (UTC-5)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('scripts/transmissao/requirements.txt') }}
+
+      - name: Instalar dependências
+        run: pip install -r scripts/transmissao/requirements.txt
+
+      - name: Gerar edições da manhã e da noite
+        run: python scripts/transmissao/main.py
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Publicar áudio/metadados e histórico
+        run: |
+          git config user.name "transmissao-bot"
+          git config user.email "actions@github.com"
+          git add public/transmissao/ scripts/transmissao/data/posted_links_transmissao.json
+          git diff --cached --quiet || git commit -m "Atualiza Transmissão Ao Vivo do dia"
+          git push
