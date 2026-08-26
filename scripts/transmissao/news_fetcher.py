@@ -1,5 +1,12 @@
-"""Busca notícias reais e recentes do Brasil em fontes jornalísticas
-verificadas via RSS — nenhum fato é inventado aqui, só coletado.
+"""Busca notícias reais e recentes em fontes jornalísticas verificadas via
+RSS — nenhum fato é inventado aqui, só coletado.
+
+Escopo editorial (estilo rádio comunitária, definido pelo usuário em
+26/ago/2026): política mundial em geral, descobertas de saúde, e
+PRINCIPALMENTE tecnologia/IA — por isso a maioria dos feeds abaixo é de
+tech/IA. Nada de política/economia doméstica do dia a dia, nem
+crime/polícia local (o feed geral do G1 foi removido por causa disso —
+trazia bastante notícia policial).
 
 Regra do canal (igual ao brasil-digital-bot): o roteiro final
 (content_generator.py) é obrigado a se basear SOMENTE no texto retornado
@@ -11,20 +18,33 @@ import re
 
 import feedparser
 
-# (nome da fonte, URL do feed RSS) — todas testadas em 26/ago/2026 e
-# retornando itens válidos (feedparser + status 200/302, entries > 0).
-# URLs alternativas testadas e descartadas: agenciabrasil.ebc.com.br/feed
-# (301, 0 entries) e cnnbrasil.com.br/nacional/feed/ (404).
+# (nome da fonte, URL do feed RSS) — todas testadas em 26/ago/2026
+# (feedparser + status 200/302, entries > 0).
+# Descartadas por não existir/retornar vazio: cnnbrasil.com.br (mundo/saude/
+# category, todas 404), agenciabrasil.ebc.com.br (política/geral/saude/
+# internacional, todas 404), rss.uol.com.br (internacional/saude/ciencia,
+# todas 404).
 FEEDS = [
-    ("G1", "https://g1.globo.com/rss/g1/"),
-    ("Agência Brasil", "https://agenciabrasil.ebc.com.br/rss.xml"),
-    ("CNN Brasil", "https://www.cnnbrasil.com.br/feed/"),
-    ("UOL Notícias", "https://rss.uol.com.br/feed/noticias.xml"),
+    # Política mundial / notícias internacionais em geral
+    ("BBC Brasil", "http://feeds.bbci.co.uk/portuguese/rss.xml"),
+    ("G1 Mundo", "https://g1.globo.com/rss/g1/mundo/"),
+    # Descobertas de saúde / ciência
+    ("G1 Ciência e Saúde", "https://g1.globo.com/rss/g1/ciencia-e-saude/"),
+    # Tecnologia e IA — foco principal do programa, por isso a maioria
+    # dos feeds é daqui (mesmas fontes já validadas no brasil-digital-bot)
+    ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("MIT Technology Review", "https://www.technologyreview.com/feed/"),
+    ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+    ("Ars Technica AI", "https://arstechnica.com/ai/feed/"),
+    ("Wired AI", "https://www.wired.com/feed/tag/ai/latest/rss"),
+    ("Canaltech IA", "https://canaltech.com.br/rss/inteligencia-artificial/"),
+    ("Olhar Digital IA", "https://olhardigital.com.br/editorias/inteligencia-artificial/feed/"),
+    ("InfoMoney IA", "https://www.infomoney.com.br/tudo-sobre/inteligencia-artificial/feed/"),
 ]
 
-# Notícia geral envelhece mais rápido que tech (janela mais curta que o
-# brasil-digital-bot, que usa 30h) — queremos algo do próprio dia.
-MAX_AGE_HOURS = 18
+# Mistura de notícia geral (envelhece rápido) com tech/IA (o brasil-digital-bot
+# usa 30h pros mesmos feeds de tech) — meio-termo de 24h cobre os dois bem.
+MAX_AGE_HOURS = 24
 LIMIT_PER_FEED = 15
 
 # Filtro de segurança: descarta ruído óbvio (loteria, cupom/promoção,
@@ -32,6 +52,17 @@ LIMIT_PER_FEED = 15
 NOISE_PATTERNS = re.compile(
     r"loteria|quina|lotof[aá]cil|mega-?sena|resultado da|cupom|% ?off|"
     r"promo[cç][aã]o|achados|onde comprar|melhor pre[cç]o|hor[oó]scopo",
+    re.IGNORECASE,
+)
+
+# Fora do escopo editorial (rádio comunitária: política mundial, saúde,
+# tech/IA) — os feeds de "Mundo"/BBC também trazem crime/polícia/tragédia
+# local, que não é o tom pedido. Feeds de tech/IA/saúde não costumam bater
+# aqui, então o filtro é seguro pra todas as fontes.
+OFF_TOPIC_PATTERNS = re.compile(
+    r"pol[ií]cia|policial|pres[oa] (em|por|ap[oó]s)|prende|prend[eu]|"
+    r"assassinat|homic[ií]dio|estupr|sequestr|guilhotina|esfaque|tiroteio|"
+    r"balead[oa]|linchad|desaparecid|desabou",
     re.IGNORECASE,
 )
 
@@ -75,7 +106,7 @@ def fetch_candidates(max_age_hours: int = MAX_AGE_HOURS) -> list[dict]:
 
             if not title or not link:
                 continue
-            if NOISE_PATTERNS.search(title):
+            if NOISE_PATTERNS.search(title) or OFF_TOPIC_PATTERNS.search(title):
                 continue
 
             candidates.append({

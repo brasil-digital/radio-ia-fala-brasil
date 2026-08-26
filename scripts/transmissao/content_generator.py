@@ -22,7 +22,9 @@ def generate_content(article: dict, period: str) -> dict:
     proibido) — igual à regra do content_generator.py do brasil-digital-bot.
     """
     label = PERIOD_LABELS.get(period, "edição")
-    prompt = f"""Você é o âncora da "Transmissão Ao Vivo" da Rádio Fala Brasil, um programa de notícias pra brasileiros vivendo nos Estados Unidos (Massachusetts). Esta é a {label} do dia, narrada pela voz do Ronny.
+    prompt = f"""Você é o âncora da "Transmissão Ao Vivo" da Rádio Fala Brasil, um programa estilo rádio comunitária pra brasileiros vivendo nos Estados Unidos (Massachusetts). Esta é a {label} do dia, narrada pela voz do Ronny.
+
+O programa cobre só três tipos de assunto: política mundial em geral, descobertas de saúde, e principalmente tecnologia/IA. Tom de rádio comunitária: informativo, próximo, sem sensacionalismo — não é um programa policial nem de fofoca.
 
 REGRA INEGOCIÁVEL: baseie-se EXCLUSIVAMENTE nas informações fornecidas abaixo, extraídas de uma matéria jornalística real. É PROIBIDO inventar números, datas, nomes, citações, causas ou consequências que não estejam no texto. Se um detalhe não estiver claro na fonte, seja mais genérico em vez de inventar — isso é jornalismo verificado, não especulação ("zero achômetro"). Pode mencionar a data de hoje normalmente, sem receio.
 
