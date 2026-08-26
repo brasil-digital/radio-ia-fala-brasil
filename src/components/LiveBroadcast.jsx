@@ -111,6 +111,17 @@ export default function LiveBroadcast() {
   if (isLive) {
     return (
       <div className="mt-8 bg-radio-card border border-radio-red/50 rounded-2xl p-5 text-left max-w-xl mx-auto">
+        <div className="relative rounded-xl overflow-hidden mb-4">
+          <img
+            src="/transmissao/ronny.jpg"
+            alt="Ronny, âncora da Transmissão Ao Vivo, no estúdio da Rádio Fala Brasil"
+            className="w-full h-auto block"
+          />
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent px-3 pt-6 pb-2 flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-radio-red animate-pulse2" />
+            <span className="text-xs font-bold tracking-widest text-white">AO VIVO AGORA</span>
+          </div>
+        </div>
         <div className="inline-flex items-center gap-2 mb-3">
           <span className="w-2.5 h-2.5 rounded-full bg-radio-red animate-pulse2" />
           <span className="text-sm font-bold tracking-widest text-radio-red">TRANSMISSÃO AO VIVO</span>
@@ -141,6 +152,17 @@ export default function LiveBroadcast() {
 
   return (
     <div className="mt-8 bg-radio-card border border-radio-border rounded-2xl p-5 text-left max-w-xl mx-auto">
+      <div className="relative rounded-xl overflow-hidden mb-4">
+        <img
+          src="/transmissao/ronny.jpg"
+          alt="Ronny, âncora da Transmissão Ao Vivo, no estúdio da Rádio Fala Brasil"
+          className="w-full h-auto block grayscale opacity-70"
+        />
+        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent px-3 pt-6 pb-2 flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-gray-400" />
+          <span className="text-xs font-bold tracking-widest text-gray-200">FORA DO AR</span>
+        </div>
+      </div>
       <div className="inline-flex items-center gap-2 mb-3">
         <span className="w-2.5 h-2.5 rounded-full bg-gray-600" />
         <span className="text-sm font-semibold tracking-widest text-gray-400">TRANSMISSÃO AO VIVO — FORA DO AR</span>
