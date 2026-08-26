@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   gerar:
@@ -45,3 +46,11 @@ jobs:
           git add public/transmissao/ scripts/transmissao/data/posted_links_transmissao.json
           git diff --cached --quiet || git commit -m "Atualiza Transmissão Ao Vivo do dia"
           git push
+
+      - name: Disparar o deploy do site
+        # Um push feito com o GITHUB_TOKEN automático da Action NÃO aciona
+        # outros workflows por "on: push" (proteção do GitHub contra loop
+        # infinito) — por isso disparamos o deploy manualmente aqui.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --repo ${{ github.repository }}
