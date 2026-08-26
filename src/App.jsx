@@ -100,6 +100,34 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  useEffect(() => {
+    // A página tem mais de um player de áudio independente (o stream ao vivo
+    // aqui e o player da Transmissão Ao Vivo) — sem isso os dois tocam juntos
+    // e ficam competindo. 'play' não borbulha, por isso o listener precisa
+    // estar na fase de captura pra pegar o evento de qualquer <audio> da página.
+    const pausarOutros = (e) => {
+      document.querySelectorAll('audio, video').forEach((el) => {
+        if (el !== e.target && !el.paused) el.pause()
+      })
+    }
+    document.addEventListener('play', pausarOutros, true)
+    return () => document.removeEventListener('play', pausarOutros, true)
+  }, [])
+
+  useEffect(() => {
+    // Se o stream for pausado por outra via que não o botão daqui (ex: o
+    // efeito acima pausando por causa do player da Transmissão Ao Vivo),
+    // sincroniza o estado/ícone do botão em vez de deixá-lo "preso" tocando.
+    const audio = audioRef.current
+    if (!audio) return
+    const onPause = () => {
+      if (playingRef.current) stopPlay()
+    }
+    audio.addEventListener('pause', onPause)
+    return () => audio.removeEventListener('pause', onPause)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   const handleVolumeChange = (e) => {
     const val = parseFloat(e.target.value)
     setVolume(val)
