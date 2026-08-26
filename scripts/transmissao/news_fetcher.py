@@ -62,7 +62,11 @@ NOISE_PATTERNS = re.compile(
 OFF_TOPIC_PATTERNS = re.compile(
     r"pol[ií]cia|policial|pres[oa] (em|por|ap[oó]s)|prende|prend[eu]|"
     r"assassinat|homic[ií]dio|estupr|sequestr|guilhotina|esfaque|tiroteio|"
-    r"balead[oa]|linchad|desaparecid|desabou",
+    r"balead[oa]|linchad|desaparecid|desabou|"
+    # Julgamento criminal (não bane "julgamento" sozinho — cortaria política
+    # legítima tipo impeachment; mira só no vocabulário de julgamento penal)
+    r"r[eé]u\b|j[uú]ri|caso criminal|acusad[oa] de (matar|estupr|abusar|"
+    r"sequestrar)",
     re.IGNORECASE,
 )
 
