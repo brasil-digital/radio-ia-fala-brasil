@@ -1,9 +1,9 @@
 {
-  "headline": "Transmissão Ao Vivo ainda não gerada",
-  "summary": "A primeira edição será publicada assim que o workflow 'transmissao.yml' rodar.",
-  "source_name": "",
-  "source_url": "",
-  "generated_at_utc": "2000-01-01T00:00:00+00:00",
-  "duration_seconds": 0,
+  "headline": "Carne brasileira tem oportunidade nos EUA, mas enfrenta desafios de preço",
+  "summary": "A Abiec identifica demanda aquecida por carne brasileira nos Estados Unidos, mas alerta que descontos exigidos limitam ganhos para a indústria.",
+  "source_name": "CNN Brasil",
+  "source_url": "https://www.cnnbrasil.com.br/agro/abiec-ve-oportunidade-para-carne-brasileira-nos-eua-mas-mantem-cautela/",
+  "generated_at_utc": "2026-08-26T23:09:29.308402+00:00",
+  "duration_seconds": 202,
   "period": "manha"
 }

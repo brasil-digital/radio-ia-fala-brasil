@@ -1,9 +1,9 @@
 {
-  "headline": "Transmissão Ao Vivo ainda não gerada",
-  "summary": "A primeira edição será publicada assim que o workflow 'transmissao.yml' rodar.",
-  "source_name": "",
-  "source_url": "",
-  "generated_at_utc": "2000-01-01T00:00:00+00:00",
-  "duration_seconds": 0,
+  "headline": "Homem detido após colocar fogo próximo a UTI com crianças em MT",
+  "summary": "Um homem foi preso em Várzea Grande, região metropolitana de Cuiabá, suspeito de provocar incêndio próximo à UTI pediátrica de um hospital municipal. Seis crianças estavam recebendo atendimento no local.",
+  "source_name": "G1",
+  "source_url": "https://g1.globo.com/mt/mato-grosso/noticia/2026/08/26/homem-e-detido-suspeito-de-por-fogo-proximo-a-uti-com-criancas-em-varzea-grande-mt-video.ghtml",
+  "generated_at_utc": "2026-08-26T23:10:01.217080+00:00",
+  "duration_seconds": 153,
   "period": "noite"
 }
