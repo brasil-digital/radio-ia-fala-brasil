@@ -376,6 +376,11 @@ export default function App() {
                 suporte@falabrasil.digital
               </a>
             </p>
+            <p className="text-gray-600 text-xs mt-2">
+              <a href={`${SITE}/privacidade.html`} target="_blank" rel="noopener noreferrer" className="hover:text-radio-yellow underline">
+                Política de Privacidade
+              </a>
+            </p>
           </div>
           <a
             href="https://www.youtube.com/@ritmos-do-mundo"
