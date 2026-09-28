@@ -8,7 +8,7 @@ export const artists = [
     emoji: '💔',
     avatar: '/avatars/01-Mel-Rillia-Meldonca.png',
     songs: ['Amor que Dói mas Vicia'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const artists = [
     emoji: '🎤',
     avatar: '/avatars/02-Greguinho-do-Trap.png',
     songs: ['Planalto no Piseiro', 'Do Caderno pro Palco', 'Road to 26', 'Nova Geração'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const artists = [
     emoji: '🌊',
     avatar: '/avatars/03-Yasmin-Axe.png',
     songs: ['Salvador Me Chama', 'Coração de Verão'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const artists = [
     emoji: '🤠',
     avatar: '/avatars/04-Cowboy-do-Brasil.png',
     songs: ['Sacode o Chão', 'Poeira e Saudade'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const artists = [
     emoji: '🎸',
     avatar: '/avatars/05-Dante-Paulista.png',
     songs: ['Sonhos a Prazo', 'Enquanto Houver Sol'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const artists = [
     emoji: '🎷',
     avatar: '/avatars/06-Josue-Rios.png',
     songs: ['Passo a Passo no Tempo'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const artists = [
     emoji: '🌴',
     avatar: '/avatars/07-Zion-Costa.png',
     songs: ['Brisa da Alma'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ export const artists = [
     emoji: '🥁',
     avatar: '/avatars/08-Nara-Baiana.png',
     songs: ['Suingue no Amor', 'Rebola Brasil'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const artists = [
     emoji: '✨',
     avatar: '/avatars/09-Bianca-Power.png',
     songs: ['Sem Desculpa', 'É Hexa, Brasil!'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ export const artists = [
     emoji: '💚',
     avatar: '/avatars/10-Ravi-e-Maya.png',
     songs: ['Dois Corações', 'Mesmo Assim'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 11,
@@ -118,7 +118,7 @@ export const artists = [
     emoji: '🪗',
     avatar: '/avatars/11-Gordinho-do-Piseiro.png',
     songs: ['Gordinho Gostoso (Ôh, Papai!)', 'Apaguei'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 12,
@@ -129,7 +129,7 @@ export const artists = [
     emoji: '🎻',
     avatar: '/avatars/12-Davi-Silveira.png',
     songs: ['De Silveirânia a São José', 'Meu Coração Mora em Minas'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 13,
@@ -140,7 +140,7 @@ export const artists = [
     emoji: '🚀',
     avatar: '/avatars/13-MC-Foguete.png',
     songs: ['Baile do Foguete', 'Favela é Gente'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
   {
     id: 14,
@@ -151,6 +151,6 @@ export const artists = [
     emoji: '🌊',
     avatar: '/avatars/14-DJ-Malock.png',
     songs: ['Maré Alta', 'Vibe Máxima'],
-    youtube: 'https://www.youtube.com/@ritmos-do-brasil',
+    youtube: 'https://www.youtube.com/@ritmos-do-mundo',
   },
 ]

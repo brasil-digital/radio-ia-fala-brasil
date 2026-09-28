@@ -3,6 +3,7 @@ import { MediaSession } from '@jofr/capacitor-media-session'
 import { artists } from './data/artists'
 import LiveBroadcast from './components/LiveBroadcast'
 import Programacao from './components/Programacao'
+import Loja from './components/Loja'
 import { SITE } from './lib/native'
 
 const STREAM_URL = 'https://servidor29-1.brlogic.com:7018/live'
@@ -62,7 +63,7 @@ export default function App() {
         setLoading(false)
         MediaSession.setMetadata({
           title: 'Rádio Fala Brasil — Ao Vivo',
-          artist: 'Música Brasileira 24 horas por dia',
+          artist: 'Do Brasil para o mundo · 24h no ar',
           album: 'radiofalabrasil.com',
           artwork: [{ src: `${SITE}/logo.jpg`, sizes: '512x512', type: 'image/jpeg' }],
         }).catch(() => {})
@@ -159,7 +160,7 @@ export default function App() {
             </div>
           </div>
           <a
-            href="https://www.youtube.com/@ritmos-do-brasil"
+            href="https://www.youtube.com/@ritmos-do-mundo"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-red-700 hover:bg-red-600 text-white text-sm font-semibold px-3 py-1.5 rounded-full transition-colors"
@@ -194,7 +195,7 @@ export default function App() {
             />
           </div>
           <p className="text-radio-yellow font-semibold text-lg mb-10 tracking-wide">
-            🎵 Música Brasileira 24 horas por dia
+            🌎 Do Brasil para o mundo. Do mundo para você.
           </p>
 
           {/* Equalizer */}
@@ -282,6 +283,8 @@ export default function App() {
 
       <Programacao />
 
+      <Loja />
+
       {/* Artists Section */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
@@ -308,7 +311,7 @@ export default function App() {
             Todos os clipes e lyric videos no canal <span className="text-radio-yellow font-semibold">Ritmos do Brasil</span>
           </p>
           <a
-            href="https://www.youtube.com/@ritmos-do-brasil"
+            href="https://www.youtube.com/@ritmos-do-mundo"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-500 text-white font-bold px-8 py-4 rounded-full text-lg transition-colors"
@@ -375,7 +378,7 @@ export default function App() {
             </p>
           </div>
           <a
-            href="https://www.youtube.com/@ritmos-do-brasil"
+            href="https://www.youtube.com/@ritmos-do-mundo"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-radio-yellow transition-colors"
