@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { live } from '../lib/native'
 
 // Janelas fixas de "ao vivo", em horário do Leste dos EUA (America/New_York)
 // — a Rádio Fala Brasil e o público (imigrantes brasileiros em Massachusetts)
@@ -77,7 +78,7 @@ function isFromToday(generatedAtUtc, nowET) {
 
 async function fetchMeta(period) {
   try {
-    const res = await fetch(`/transmissao/${period}.json`, { cache: 'no-store' })
+    const res = await fetch(live(`/transmissao/${period}.json`), { cache: 'no-store' })
     if (!res.ok) return null
     return await res.json()
   } catch {
@@ -113,7 +114,7 @@ export default function LiveBroadcast() {
       <div className="mt-8 bg-radio-card border border-radio-red/50 rounded-2xl p-5 text-left max-w-xl mx-auto">
         <div className="relative rounded-xl overflow-hidden mb-4">
           <img
-            src="/transmissao/ronny.jpg"
+            src={live('/transmissao/ronny.jpg')}
             alt="Ronny, âncora da Transmissão Ao Vivo, no estúdio da Rádio Fala Brasil"
             className="w-full h-auto block"
           />
@@ -128,7 +129,7 @@ export default function LiveBroadcast() {
         </div>
         <h4 className="font-display font-bold text-white text-lg leading-tight mb-1">{activeMeta.headline}</h4>
         <p className="text-gray-400 text-sm mb-4">{activeMeta.summary}</p>
-        <audio controls className="w-full" src={`/transmissao/${period}.mp3`} />
+        <audio controls className="w-full" src={live(`/transmissao/${period}.mp3?v=${encodeURIComponent(activeMeta.generated_at_utc || '')}`)} />
         <p className="text-gray-500 text-xs mt-2">
           Fonte: {activeMeta.source_name}
           {activeMeta.source_url && (
@@ -154,7 +155,7 @@ export default function LiveBroadcast() {
     <div className="mt-8 bg-radio-card border border-radio-border rounded-2xl p-5 text-left max-w-xl mx-auto">
       <div className="relative rounded-xl overflow-hidden mb-4">
         <img
-          src="/transmissao/ronny.jpg"
+          src={live('/transmissao/ronny.jpg')}
           alt="Ronny, âncora da Transmissão Ao Vivo, no estúdio da Rádio Fala Brasil"
           className="w-full h-auto block grayscale opacity-70"
         />
@@ -173,7 +174,7 @@ export default function LiveBroadcast() {
           <p className="text-gray-500 text-xs uppercase tracking-wide mb-1">Última edição</p>
           <h4 className="font-display font-bold text-white text-base leading-tight mb-1">{last.headline}</h4>
           {last.duration_seconds > 0 && (
-            <audio controls className="w-full" src={`/transmissao/${last.period}.mp3`} />
+            <audio controls className="w-full" src={live(`/transmissao/${last.period}.mp3?v=${encodeURIComponent(last.generated_at_utc || '')}`)} />
           )}
         </>
       )}

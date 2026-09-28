@@ -2,8 +2,9 @@ import { useState, useRef, useEffect } from 'react'
 import { MediaSession } from '@jofr/capacitor-media-session'
 import { artists } from './data/artists'
 import LiveBroadcast from './components/LiveBroadcast'
+import Programacao from './components/Programacao'
+import { SITE } from './lib/native'
 
-// ⚠️ Substitua pela URL real do seu stream BR Logic
 const STREAM_URL = 'https://servidor29-1.brlogic.com:7018/live'
 
 const setMediaSessionState = (playbackState) => {
@@ -63,7 +64,7 @@ export default function App() {
           title: 'Rádio Fala Brasil — Ao Vivo',
           artist: 'Música Brasileira 24 horas por dia',
           album: 'radiofalabrasil.com',
-          artwork: [{ src: '/logo.jpg', sizes: '512x512', type: 'image/jpeg' }],
+          artwork: [{ src: `${SITE}/logo.jpg`, sizes: '512x512', type: 'image/jpeg' }],
         }).catch(() => {})
         setMediaSessionState('playing')
       })
@@ -238,7 +239,7 @@ export default function App() {
 
             {error && (
               <p className="text-red-400 text-sm">
-                Erro ao conectar ao stream. Verifique a URL do BR Logic.
+                Não foi possível conectar à rádio. Confira sua internet e toque em play de novo.
               </p>
             )}
 
@@ -278,6 +279,8 @@ export default function App() {
           </p>
         </div>
       </section>
+
+      <Programacao />
 
       {/* Artists Section */}
       <section className="max-w-6xl mx-auto px-4 py-16">
