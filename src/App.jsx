@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { MediaSession } from '@jofr/capacitor-media-session'
 import { artists } from './data/artists'
 import LiveBroadcast from './components/LiveBroadcast'
+import Especial from './components/Especial'
 import Programacao from './components/Programacao'
 import Loja from './components/Loja'
 import { SITE } from './lib/native'
@@ -263,6 +264,8 @@ export default function App() {
               </svg>
             </div>
           </div>
+
+          <Especial />
 
           <LiveBroadcast />
 
